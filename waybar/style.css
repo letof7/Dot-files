@@ -1,158 +1,135 @@
 * {
-    border: none;
-    border-radius: 0;
-    font-family: "JetBrainsMono Nerd Font";
-    font-weight: bold;
-    font-size: 100%;
-    min-height: 0;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    min-height: 0;
+	font-family: "CaskaydiaCove Nerd Font";
+	font-size: 13px;
 }
+
 window#waybar {
-    margin: 1px 2px 2px;
-    background: rgba(0, 0, 0, 0);
-    color: #eae206;
+	background: transparent;
+  border-radius: 10px;
+	min-height: 0;
 }
-tooltip {
-    background: #1e1e2e;
-    opacity: 0.8;
-    border-radius: 10px;
-    border-width: 20px;
-    border-style: solid;
-    border-color: #11111b;
+
+/* Groups */
+
+.modules-left, .modules-center, .modules-right {
+  border: #4f0e75 1.8px solid;
+  border-radius: 10px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+	background: #0b0e1e;
+  padding: 2px 10px;
+  margin: 0px 10px;
+  margin-top: 10px;
 }
-tooltip label{
-    color: #cdd6f4;
+
+
+/* Label Customization */
+
+label, button {
+	padding: 0 5px;
 }
+
+button label {
+	border: none;
+	background: transparent;
+	padding: 0;
+}
+
+/* Module Customization */
+
+#workspaces {
+	background: transparent;
+}
+
 #workspaces button {
-    padding: 5px;
-    color: #f609ec;
-    margin-right: 5px;
+color: #ff21a6;	
+	margin: 0;
+	padding: 2px 2px;
 }
+
 #workspaces button.active {
-    color: #eae206;
-}
-#workspaces button.focused {
-    color: #a6adc8;
-    background: #eba0ac;
-    border-radius: 10px;
-}
-#workspaces button.urgent {
-    color: #11111b;
-    background: #a6e3a1;
-    border-radius: 10px;
-}
-#workspaces button:hover {
-    background: #11111b;
-    color: #cdd6f4;
-    border-radius: 10px;
-}
-#window,
-#cpu,
-#disk,
-#memory,
-#clock,
-#network,
-#custom-cava
-#workspaces
-{
-    background: #1e1e2e;
-    opacity: 0.8;
-    padding: 0px 10px;
-    margin: 3px 0px;
-    margin-top: 8px;
-    border: 1px solid #f609ec;
+	color: #81a1c1;
 }
 
-#custom-network_traffic{
-    background: #1e1e2e;
-    opacity: 0.8;
-    padding: 0px 10px;
-    margin: 3px 0px;
-    margin-top: 8px;
-    border: 1px solid #f609ec;
-    border-radius: 10px;
-}
-
-#custom-lock_screen {
-border-radius: 10px;
-    margin-left: 20px;
-    margin-right: 10px;
-
-}
-#custom-launch_wofi {
-}
-#cpu {
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+#window {
+  color: #9621FF;
 }
 
 #clock {
-    border-radius: 10px;
+	color: #e5e9f0;
+}
 
+#idle_inhibitor {
+	color: #d8dee9;
+}
+
+#pulseaudio.output {
+	color: #ff2160;
+}
+
+#disk {
+  color: #ff21a6;
+}
+
+#memory {
+	color: #de21ff;
+}
+
+#cpu {
+  color: #9621FF
+}
+
+#temperature {
+	color: #7221ff;
+}
+
+#network {
+	color: #3321ff;
+}
+
+#tray {
+	color: #eceff4;
 }
 
 
+#custom-cava {
+         color: #9621FF
+}
+
+
+#custom-network_traffic{
+	color: #de21ff;
+
+}
+
+#custom-logout {
+	color: #9621FF;
+	font-size: 12px;
+}
+
+
+#custom-launch_wofi {
+color: #ff21a6;
+}
+
+#custom-lock_screen {
+color: #ff21a6;
+}
+
 #custom-power_btn {
-    margin-left: 10px;
-    margin-right: 20px;
-color: #f609ec;
+color: #ff21a6;
 }
 
 #custom-updates {
-    background: #1e1e2e;
-    opacity: 0.8;
-    padding: 0px 10px;
-    margin: 3px 0px;
-    margin-top: 8px;
-    border: 1px solid #f609ec;
-    border-radius: 10px;
-
+color: #ff21a6;
 }
 
-#workspaces {
+#clock {
+color: #ff21a6;
 }
-#disk#2 {
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-#custom-network_traffic  {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-#workspaces {
-    	padding-right: 0px;
-    	padding-left: 5px;
-}
-#window {
-    border-radius: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border: 1px solid #f609ec;
-}
-#custom-launch_wofi {
-    color: #f609ec;
-    margin-left: 10px;
-    margin-right: 10px;
-}
+
+
 #pulseaudio {
-    background: #1e1e2e;
-    opacity: 0.8;
-    padding: 0px 10px;
-    margin: 3px 0px;
-    margin-top: 8px;
-    border: 1px solid #f609ec;
-    border-radius: 10px;
-}
-#custom-cava {
-    color: #f609ec;
-    margin-left: 10px;
-    border: 1px solid #f609ec;
-    padding: 0px 10px;
-    background: #1e1e2e;
-    margin: 3px 0px;
-    margin-top: 8px;
-    border-radius: 10px;
+color: #ff21a6;
 }
 
