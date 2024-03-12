@@ -1,0 +1,13 @@
+	background-color: rgba(0,0,0,0);
+	color: #7221ff;
+	 color: #9621FF
+	color: #9621FF;
+         color: #9621FF
+	color: #d8dee9;
+	color: #de21ff;
+	color: #eceff4;
+	color: #f2bae8;
+	color: #f2bae8;	
+  	color: #f2bae8;
+	color: #ff21a6;
+  	color: #ff21a6;
