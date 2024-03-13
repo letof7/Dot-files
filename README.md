@@ -1,11 +1,9 @@
-Dotfiles
-
 This repository contains my personal dotfiles for my Linux Andeavours OS setup. It is customized for the Hyprland desktop environment.
-
 
 Desktop Environment   : Hyprland
 Web                     : https://floorp.app/en/
 Status Waybar         : Waybar, Btop, Vtop, Neofetch
+
    https://github.com/Alexays/Waybar
    https://github.com/aristocratos/btop
    https://github.com/MrRio/vtop
