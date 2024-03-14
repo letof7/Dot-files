@@ -1,5 +1,0 @@
-#!/bin/bash
-check=`audtool --current-song`
-echo $check
-
-
