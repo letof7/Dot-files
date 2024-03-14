@@ -1,0 +1,21 @@
+  {
+"layer": "top",
+    "position": "top",
+    "mod": "dock",
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "height": 40,
+     "fixed-center": true,
+     "ipc": true,
+
+"modules-left": ["custom/launch_wofi","hyprland/workspaces","cpu","memory","disk","disk#2","hyprland/window"],
+"modules-center": ["clock","custom/network_traffic","custom/updates"],
+"modules-right": ["wlr/taskbar","custom/cava","pulseaudio","tray","custom/lock_screen","custom/power_btn"],
+
+
+"include": ["/home/tof/.config/waybar/modules"] // Include the module config
+  }
+
+
+
