@@ -29,12 +29,14 @@ Alacritty, Foot, Oh-my-Zsh
 
 App Manager            : 
 Wofi, Dunst, Swaylock, wlogout, WorkspaceUI
+``` 
    https://hg.sr.ht/~scoopta/wofi
    https://github.com/dunst-project/dunst
    https://github.com/swaywm/swaylock
    https://github.com/ArtsyMacaw/wlogout
    https://github.com/CarloCattano/workspacer
-   
+```
+
 File Manager          : 
 Thunar, Ranger
 ```
