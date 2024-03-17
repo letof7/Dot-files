@@ -9,7 +9,7 @@
 Hyprland
 
 > Web                   : 
- -Floorp
+Floorp
 ```
    https://floorp.app/en/ 
 ```
@@ -24,7 +24,7 @@ Waybar, Btop, Vtop, Neofetch
    https://github.com/dylanaraps/neofetch
 ```
 
-Terminal Emulator     : 
+>Terminal Emulator     : 
 Alacritty, Foot, Oh-my-Zsh
 ```
    https://github.com/alacritty/alacritty
@@ -32,7 +32,7 @@ Alacritty, Foot, Oh-my-Zsh
    https://github.com/ohmyzsh/ohmyzsh
 ```
 
-App Manager            : 
+>App Manager            : 
 Wofi, Dunst, Swaylock, wlogout, WorkspaceUI
 ``` 
    https://hg.sr.ht/~scoopta/wofi
@@ -42,18 +42,18 @@ Wofi, Dunst, Swaylock, wlogout, WorkspaceUI
    https://github.com/CarloCattano/workspacer
 ```
 
-File Manager          : 
+>File Manager          : 
 Thunar, Ranger
 ```
    https://github.com/ranger/ranger
 ```
 
-Wallpaper Manager     : Swww
+>Wallpaper Manager     : Swww
 ```
    https://github.com/LGFae/swww
 ```
    
-Misc                    :
+>Misc                    :
 Bat, Cava, Lsd ...
 ```
    https://github.com/sharkdp/bat
@@ -61,7 +61,7 @@ Bat, Cava, Lsd ...
    https://github.com/lsd-rs/lsd
 ```
 
-My Wallppapers :
+>My Wallppapers :
 ```
 https://mega.nz/folder/nqAwFS7a#AG8RmuAqWg7nfPj-SPg-9g
 ```
