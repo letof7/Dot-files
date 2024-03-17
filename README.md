@@ -1,5 +1,11 @@
 This repository contains my personal dotfiles for my Linux Andeavours OS setup. It is customized for the Hyprland desktop environment.
 
+My Wallppapers :
+```
+https://mega.nz/folder/nqAwFS7a#AG8RmuAqWg7nfPj-SPg-9g
+```
+
+
 Desktop Environment   : 
 Hyprland
 
