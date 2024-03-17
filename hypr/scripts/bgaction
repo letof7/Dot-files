@@ -1,0 +1,29 @@
+#!/usr/bin/bash
+
+#start swwww
+swww query || swww init
+#################################################################################
+ #swww img /home/tof/Images/waves-colorful-3840x2160-10065.jpg --transition-step 10 --transition-fps 100
+
+# Script to randomly set Background from files in a directory
+# Directory Containing Backround
+DIR="/home/tof/Images"
+# Interval in seconds to change background
+SLEEPTIME=60
+# Start a Loop
+while :
+do
+# Command to Select a random jpg file from directory
+# Delete the *.jpg to select any file but it may return a folder
+PIC=$(find $DIR/*.jpg | shuf -n1)
+# Command to set Background Image
+
+swww img $PIC --transition-type random --transition-step 10 --transition-fps 100
+#--transition-type random
+
+#gsettings set org.cinnamon.desktop.background picture-uri "file://$PIC"
+
+# Sleep before continuing with loop
+sleep $SLEEPTIME
+continue
+done
