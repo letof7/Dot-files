@@ -5,16 +5,16 @@
 
 > This repository contains my personal dotfiles for my Linux Andeavours OS setup. It is customized for the Hyprland desktop environment.
 
-Desktop Environment   : 
+> Desktop Environment   : 
 Hyprland
 
-Web                   : 
+> Web                   : 
 Floorp
 ```
    https://floorp.app/en/ 
 ```
 
-Status Waybar         : 
+> Status Waybar         : 
 Waybar, Btop, Vtop, Neofetch
 
 ```
