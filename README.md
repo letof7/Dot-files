@@ -9,7 +9,7 @@
 Hyprland
 
 > Web                   : 
-Floorp
+ -Floorp
 ```
    https://floorp.app/en/ 
 ```
