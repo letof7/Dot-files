@@ -2,14 +2,8 @@
 
 
 ![36234](https://github.com/letof7/Dot-files/assets/31816885/a85992be-268a-45cf-9c62-5c28754292ab)
-This repository contains my personal dotfiles for my Linux Andeavours OS setup. It is customized for the Hyprland desktop environment.
 
-My Wallppapers :
-```
-https://mega.nz/folder/nqAwFS7a#AG8RmuAqWg7nfPj-SPg-9g
-```
-![sc](https://github.com/letof7/Dot-files/assets/31816885/c6c2cdbd-28aa-4dc6-baee-7f929962f1ce)
-
+> This repository contains my personal dotfiles for my Linux Andeavours OS setup. It is customized for the Hyprland desktop environment.
 
 Desktop Environment   : 
 Hyprland
@@ -66,6 +60,16 @@ Bat, Cava, Lsd ...
    https://github.com/karlstav/cava
    https://github.com/lsd-rs/lsd
 ```
+
+My Wallppapers :
+```
+https://mega.nz/folder/nqAwFS7a#AG8RmuAqWg7nfPj-SPg-9g
+```
+![sc](https://github.com/letof7/Dot-files/assets/31816885/c6c2cdbd-28aa-4dc6-baee-7f929962f1ce)
+
+
+
+
 
 ##Screenshots
 ![sc4](https://github.com/letof7/Dot-files/assets/31816885/60a7e62e-44ec-4791-8560-4e5f96a91889)
