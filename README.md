@@ -1,3 +1,7 @@
+
+
+
+![36234](https://github.com/letof7/Dot-files/assets/31816885/a85992be-268a-45cf-9c62-5c28754292ab)
 This repository contains my personal dotfiles for my Linux Andeavours OS setup. It is customized for the Hyprland desktop environment.
 
 My Wallppapers :
