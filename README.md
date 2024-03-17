@@ -61,3 +61,9 @@ Bat, Cava, Lsd ...
 ![sc3](https://github.com/letof7/Dot-files/assets/31816885/934af5a6-da25-4398-bc27-535466386541)
 ![sc2](https://github.com/letof7/Dot-files/assets/31816885/8084e828-f9e6-4d5d-a48c-de4e525995a2)
 ![sc1](https://github.com/letof7/Dot-files/assets/31816885/5bb6aeb5-0b50-4cc3-b711-9b2bb15b2dea)
+![clipbord](https://github.com/letof7/Dot-files/assets/31816885/b28f805c-f5e6-4af2-9835-565f1e3f8aed)
+![floorp](https://github.com/letof7/Dot-files/assets/31816885/c1ffc1a6-6f39-4e43-91f3-db04a36b5bef)
+
+
+
+
