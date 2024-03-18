@@ -59,6 +59,9 @@ Bat, Cava, Lsd ...
    https://github.com/sharkdp/bat
    https://github.com/karlstav/cava
    https://github.com/lsd-rs/lsd
+
+   https://cheat.sh/
+
 ```
 
 >My Wallppapers :
