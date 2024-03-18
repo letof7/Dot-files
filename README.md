@@ -60,7 +60,7 @@ Bat, Cava, Lsd ...
    https://github.com/karlstav/cava
    https://github.com/lsd-rs/lsd
 
-   https://cheat.sh/
+   curl cheat.sh >>>      https://cheat.sh/
 
 ```
 
