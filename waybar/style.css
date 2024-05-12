@@ -1,0 +1,94 @@
+* {
+	font-family: "CaskaydiaCove Nerd Font";
+	font-size: 13px;
+}
+window#waybar {
+	background-color: rgba(9,9,9,0);
+	border-radius: 3px;
+	min-height: 0;
+}
+.modules-left, .modules-center, .modules-right {
+  	border: #868584 1px solid;
+  	border-radius: 2px;
+  	border-bottom-right-radius: 12px;
+ 	 border-bottom-left-radius: 12px;
+	background: rgba(9,9,9,0.5);
+  	padding: 0px 10px;
+  	margin: 0px 10px;
+  	margin-top: 4px;
+}
+
+label, button {
+	padding: 0 5px;
+}
+button label {
+	border: none;
+	background:  rgba(0,0,0,0);
+	padding: 0;
+}
+
+
+
+#workspaces {
+	background: rgba(0,0,0,0);
+}
+#workspaces button {
+	color: #868584;	
+	margin: 0;
+	padding: 2px 2px;
+}
+#workspaces button.active {
+	color: #ffffff;
+}
+#window {
+  	color: #ffffff;
+}
+#clock {
+	color: #ffffff;
+}
+#idle_inhibitor {
+	color: #868584;
+}
+#pulseaudio.output {
+	color: #868584;
+}
+#disk {
+  	color: #868584;
+}
+#memory {
+	color: #868584;
+}
+#cpu {
+	 color: #868584;
+}
+#network {
+	color: #868584;
+}
+#tray {
+	color: #ffffff;
+}
+#custom-cava {
+         color: #868584;
+}
+#custom-network_traffic{
+	color: #868584;
+}
+#custom-launch_wofi {
+	color: #ffffff;
+	font-size: 14px;
+}
+#custom-lock_screen {
+	color: #868584;
+}
+#custom-power_btn {
+	color: #ffffff;
+        font-size: 14px;}
+#custom-updates {
+	color: #868584;
+}
+#clock {
+	color: #ffffff;
+}
+#pulseaudio {
+	color: #868584;
+}
