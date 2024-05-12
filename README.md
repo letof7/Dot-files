@@ -18,31 +18,26 @@ Waybar, Btop, Vtop, Neofetch
 ```
 
 >Terminal Emulator     : 
-Alacritty, Oh-my-Zsh
+Alacritty, Oh-my-Zsh, Foot, Kitty
 ```
    https://github.com/alacritty/alacritty
    https://github.com/ohmyzsh/ohmyzsh
 ```
 
 >App Manager            : 
-Wofi, Dunst, Swaylock, wlogout, 
+Wofi, Dunst, Swaylock, wlogout, Nwg-look, VirtualBox
 ``` 
    https://hg.sr.ht/~scoopta/wofi
    https://github.com/dunst-project/dunst
    https://github.com/swaywm/swaylock
 ```
 
->File Manager          : 
-Thunar, Ranger
+>File Manager, Audio, Video         : 
+Caja, Ranger, Audacious, Vlc, Sublime-text
 ```
    https://github.com/ranger/ranger
 ```
 
->Wallpaper Manager     : Swww
-```
-   https://github.com/LGFae/swww
-```
-   
 >Misc                    :
 Bat, Cava, Lsd ...
 ```
@@ -54,6 +49,11 @@ Bat, Cava, Lsd ...
 
 ```
 
+
+>Wallpaper Manager     : Swww
+```
+   https://github.com/LGFae/swww
+```
 >My Wallppapers :
 ```
 https://mega.nz/folder/nqAwFS7a#AG8RmuAqWg7nfPj-SPg-9g
