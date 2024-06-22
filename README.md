@@ -65,7 +65,7 @@ https://mega.nz/folder/nqAwFS7a#AG8RmuAqWg7nfPj-SPg-9g
 
 
 ##Screenshots
-https://github.com/letof7/Dot-files/blob/main/sc1.jpg?raw=true
+https://github.com/letof7/Dot-files/blob/main/sc11.jpg?raw=true
 
 
 
