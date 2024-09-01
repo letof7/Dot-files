@@ -56,7 +56,7 @@ Bat, Cava, Lsd ...
 ```
 >My Wallppapers :
 ```
-https://mega.nz/folder/nqAwFS7a#AG8RmuAqWg7nfPj-SPg-9g
+https://mega.nz/folder/j2xDmKwa#pvvJIihnMz6_mtJLwGl2fg
 ```
 ![sc](https://github.com/letof7/Dot-files/assets/31816885/c6c2cdbd-28aa-4dc6-baee-7f929962f1ce)
 
