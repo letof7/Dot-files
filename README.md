@@ -1,7 +1,6 @@
+![sc](https://github.com/letof7/Dot-files/blob/main/output.gif?raw=true)
+![sc](https://github.com/letof7/Dot-files/blob/main/output2.gif?raw=true)
 
-
-
-![36234](https://github.com/letof7/Dot-files/assets/31816885/a85992be-268a-45cf-9c62-5c28754292ab)
 
 > This repository contains my personal dotfiles for my Arch setup. It is customized for the Hyprland desktop environment.
 
