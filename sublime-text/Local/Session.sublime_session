@@ -1,0 +1,748 @@
+{
+	"file_history":
+	[
+		"/etc/pacman.conf",
+		"/home/tof/STOCK1/SaV/Documents/MDP-A-FAIRE/NEW-Ultimate-list.txt",
+		"/home/tof/Musique/matmahta",
+		"/home/tof/.config/fastfetch/config.jsonc",
+		"/home/tof/Documents/flood-save.sh",
+		"/home/tof/Documents/sequence-video.txt",
+		"/home/tof/Documents/Tests/wf-recorder.txt",
+		"/home/tof/STOCK1/Download-Torrent/The Legend of Zelda - Echoes of Wisdom v1.0.1 + Ryujinx-Suyu Switch Emulators/The Legend of Zelda - Echoes of Wisdom v1.0.1 + Ryujinx-Suyu Switch Emulators/_How to Install.txt",
+		"/home/tof/.config/waybar2/config",
+		"/home/tof/.config/waybar2/style.css",
+		"/home/tof/.config/waybar/config",
+		"/home/tof/.config/hypr-conf1/look.conf",
+		"/home/tof/Downloads/MIROR/doc.lagout.org/find.txt",
+		"/home/tof/STOCK1/Download-Torrent/The Legend of Zelda - Echoes of Wisdom v1.0.1 + Ryujinx-Suyu Switch Emulators/_Description.txt",
+		"/home/tof/.config/0-switch/switch_hyprland_config.sh",
+		"/home/tof/.config/hypr/scripts/waybar.sh",
+		"/home/tof/.config/hypr/scripts/waybar.sh.save",
+		"/home/tof/.zshrc",
+		"/home/tof/.config/kitty/mocha.conf",
+		"/home/tof/.config/kitty/kitty.conf",
+		"/home/tof/.config/waybar/style.css",
+		"/home/tof/.config/hypr/icon.png",
+		"/home/tof/.config/hypr/look.conf",
+		"/home/tof/.config/waybar2/config.19.09",
+		"/usr/share/pipewire/pipewire.conf",
+		"/home/tof/.config/hypr/windowrules.conf",
+		"/home/tof/Documents/change-bg-sddm.sh",
+		"/home/tof/.config/hypr/hyprland.conf",
+		"/home/tof/.config/hypr/binds.conf",
+		"/home/tof/zshrc",
+		"/home/tof/Documents/CHEAT-SHEET/EnumerationCheatSheet.md",
+		"/home/tof/.config/README",
+		"/home/tof/Documents/CHEAT-SHEET/LinEnum.sh",
+		"/home/tof/copy-paste.txt",
+		"/home/tof/Documents/CHEAT-SHEET/lse.sh",
+		"/home/tof/startup.conf",
+		"/home/tof/.config/sublime-text/Packages/Theme - Default/Adaptive.sublime-theme",
+		"/home/tof/.config/sublime-text/Packages/User/Adaptive.sublime-theme",
+		"/home/tof/STOCK1/Download-Torrent/[ Torrent911.rs ] Lady.in.the.Lake.S01E01.MULTi.1080p.WEB.H264-FW/Lady.in.the.Lake.S01E01.MULTi.1080p.WEB.H264-FW.nfo",
+		"/home/tof/Drive/Drive-google/voyage.memo.txt",
+		"/home/tof/.config/Ascii/felix",
+		"/home/tof/.config/audacious/config",
+		"/home/tof/STOCK1/Download-Torrent/CYGNI.All.Guns.Blazing-RUNE/_INSTALL TUTORIAL.txt",
+		"/home/tof/STOCK1/Download-Torrent/CYGNI.All.Guns.Blazing-RUNE/README.txt",
+		"/home/tof/.config/caja/scripts/Terminal-Here",
+		"/home/tof/.config/caja/scripts/Terminal-Here-Root",
+		"/home/tof/.config/neofetch/config.conf",
+		"/home/tof/.config/caja/scripts/Word-Count",
+		"/home/tof/DATAX1/torrents/Films-terminés/[ Torrent911.gs ] L.incroyable.embouteillage.2.vive.les.maries.2024.FRENCH.1080p.WEB.x264-FW/L.incroyable.embouteillage.2.vive.les.maries.2024.FRENCH.1080p.WEB.x264-FW.nfo",
+		"/home/tof/.config/user-dirs.locale",
+		"/home/tof/Documents/CHEAT....txt",
+		"/srv/http/index.html",
+		"/home/tof/Downloads/levelx00.py",
+		"/home/tof/Documents/SAV-arch-nas.sh",
+		"/home/tof/Documents/cheat.sh",
+		"/home/tof/Documents/Srv/cheat.sh",
+		"/srv/http/cheat.sh",
+		"/home/tof/Documents/Web-test/hacker-theme/Cheat.html",
+		"/home/tof/Documents/CHEAT-SHEET/index.html",
+		"/home/tof/Documents/Arch-linux-memo/debug-archlinux.txt",
+		"/home/tof/Documents/Arch-linux-memo/fancontrol.txt",
+		"/home/tof/Documents/Scripts/scan-rezo-ping",
+		"/home/tof/Documents/Scripts/cpu-mem-etc-info.sh",
+		"/home/tof/Documents/Scripts/Open-rgb.sh",
+		"/home/tof/Documents/Scripts/pynput",
+		"/home/tof/Documents/Scripts/services.sh",
+		"/home/tof/Documents/Sav-bak-nas.log",
+		"/home/tof/Documents/SAV-endeavour-bak-nas.sh",
+		"/home/tof/Documents/Scripts/Save-celine.sh",
+		"/home/tof/Documents/Scripts/cpu-usage",
+		"/home/tof/Documents/Scripts/clean-arch.sh",
+		"/home/tof/Documents/Scripts/Arch_Cleaner.sh",
+		"/home/tof/Documents/Scripts/bellafetch.sh",
+		"/home/tof/Documents/Sav-Dot-files.sh",
+		"/home/tof/Dotfiles/hypr/hyprland.conf",
+		"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/Codes/NEW-Ultimate-list.txt",
+		"/home/tof/Documents/MDP-A-FAIRE/NEW-Ultimate-list.txt",
+		"/home/tof/Drive/Drive-google/PERSO/Codes/wifi.txt",
+		"/home/tof/Drive/Drive-google/PERSO/Codes/one.txt",
+		"/home/tof/Drive/Drive-google/PERSO/Codes/Nouveau document texte (2).txt",
+		"/home/tof/Drive/Drive-google/PERSO/Codes/new1.txt",
+		"/home/tof/Drive/Drive-google/PERSO/Codes/Epsens-the.txt",
+		"/home/tof/Drive/Drive-google/PERSO/Codes/new.txt",
+		"/home/tof/Drive/Drive-google/PERSO/Codes/epsens2.txt",
+		"/home/tof/Drive/Drive-google/PERSO/Codes/adp.txt",
+		"/home/tof/Drive/Drive-google/PERSO/Codes/epsens.txt",
+		"/home/tof/Documents/MDP-A-FAIRE/wifi.txt",
+		"/home/tof/Documents/MDP-A-FAIRE/comptemicrochiote.txt",
+		"/home/tof/Documents/MDP-A-FAIRE/TOF-SAVE/Copie-pv/57468924.txt",
+		"/home/tof/Documents/MDP-A-FAIRE/box.txt",
+		"/home/tof/Documents/MDP-A-FAIRE/Afaire.txt",
+		"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/Codes/Nouveau document texte (2).txt",
+		"/home/tof/Documents/Ascii/omer",
+		"/home/tof/Documents/Ascii/felix",
+		"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/Epsens-the.txt",
+		"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/new.txt",
+		"/home/tof/Documents/help-alias",
+		"/home/tof/Documents/subl-md-git",
+		"/home/tof/Documents/index.html",
+		"/home/tof/Documents/indexxxxx.html",
+		"/home/tof/Downloads/phpinfolfi.py",
+		"/home/tof/Downloads/sol-l148.txt",
+		"/home/tof/Downloads/89.txt",
+		"/home/tof/Documents/Scripts/afficher-message-ecrans.txt",
+		"/home/tof/Documents/Scripts/mkcd",
+		"/home/tof/Dotfiles/.zshrc",
+		"/home/tof/Downloads/writeup_148.txt"
+	],
+	"folder_history":
+	[
+	],
+	"last_version": 4192,
+	"last_window_id": 2,
+	"log_indexing": false,
+	"next_update_check": 1738696263,
+	"settings":
+	{
+		"new_window_full_screen": false,
+		"new_window_height": 1440.0,
+		"new_window_maximized": true,
+		"new_window_position":
+		[
+			0.0,
+			28.0
+		],
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/tof/.config/yazi/yazi-default.toml",
+				"/etc/pacman.conf",
+				"/home/tof/STOCK1/SaV/Documents/MDP-A-FAIRE/NEW-Ultimate-list.txt",
+				"/home/tof/Musique/matmahta",
+				"/home/tof/.config/fastfetch/config.jsonc",
+				"/home/tof/Documents/flood-save.sh",
+				"/home/tof/Documents/sequence-video.txt",
+				"/home/tof/Documents/Tests/wf-recorder.txt",
+				"/home/tof/STOCK1/Download-Torrent/The Legend of Zelda - Echoes of Wisdom v1.0.1 + Ryujinx-Suyu Switch Emulators/The Legend of Zelda - Echoes of Wisdom v1.0.1 + Ryujinx-Suyu Switch Emulators/_How to Install.txt",
+				"/home/tof/.config/waybar2/config",
+				"/home/tof/.config/waybar2/style.css",
+				"/home/tof/.config/waybar/config",
+				"/home/tof/.config/hypr-conf1/look.conf",
+				"/home/tof/Downloads/MIROR/doc.lagout.org/find.txt",
+				"/home/tof/STOCK1/Download-Torrent/The Legend of Zelda - Echoes of Wisdom v1.0.1 + Ryujinx-Suyu Switch Emulators/_Description.txt",
+				"/home/tof/.config/0-switch/switch_hyprland_config.sh",
+				"/home/tof/.config/hypr/scripts/waybar.sh",
+				"/home/tof/.config/hypr/scripts/waybar.sh.save",
+				"/home/tof/.zshrc",
+				"/home/tof/.config/kitty/mocha.conf",
+				"/home/tof/.config/kitty/kitty.conf",
+				"/home/tof/.config/waybar/style.css",
+				"/home/tof/.config/hypr/icon.png",
+				"/home/tof/.config/hypr/look.conf",
+				"/home/tof/.config/waybar2/config.19.09",
+				"/usr/share/pipewire/pipewire.conf",
+				"/home/tof/.config/hypr/windowrules.conf",
+				"/home/tof/Documents/change-bg-sddm.sh",
+				"/home/tof/.config/hypr/hyprland.conf",
+				"/home/tof/.config/hypr/binds.conf",
+				"/home/tof/zshrc",
+				"/home/tof/Documents/CHEAT-SHEET/EnumerationCheatSheet.md",
+				"/home/tof/.config/README",
+				"/home/tof/Documents/CHEAT-SHEET/LinEnum.sh",
+				"/home/tof/copy-paste.txt",
+				"/home/tof/Documents/CHEAT-SHEET/lse.sh",
+				"/home/tof/startup.conf",
+				"/home/tof/STOCK1/Download-Torrent/[ Torrent911.rs ] Lady.in.the.Lake.S01E01.MULTi.1080p.WEB.H264-FW/Lady.in.the.Lake.S01E01.MULTi.1080p.WEB.H264-FW.nfo",
+				"/home/tof/Drive/Drive-google/voyage.memo.txt",
+				"/home/tof/.config/Ascii/felix",
+				"/home/tof/.config/audacious/config",
+				"/home/tof/STOCK1/Download-Torrent/CYGNI.All.Guns.Blazing-RUNE/_INSTALL TUTORIAL.txt",
+				"/home/tof/STOCK1/Download-Torrent/CYGNI.All.Guns.Blazing-RUNE/README.txt",
+				"/home/tof/.config/caja/scripts/Terminal-Here",
+				"/home/tof/.config/caja/scripts/Terminal-Here-Root",
+				"/home/tof/.config/neofetch/config.conf",
+				"/home/tof/.config/caja/scripts/Word-Count",
+				"/home/tof/DATAX1/torrents/Films-terminés/[ Torrent911.gs ] L.incroyable.embouteillage.2.vive.les.maries.2024.FRENCH.1080p.WEB.x264-FW/L.incroyable.embouteillage.2.vive.les.maries.2024.FRENCH.1080p.WEB.x264-FW.nfo",
+				"/home/tof/.config/user-dirs.locale",
+				"/home/tof/Documents/CHEAT....txt",
+				"/srv/http/index.html",
+				"/home/tof/Downloads/levelx00.py",
+				"/home/tof/Documents/SAV-arch-nas.sh",
+				"/home/tof/Documents/cheat.sh",
+				"/home/tof/Documents/Srv/cheat.sh",
+				"/srv/http/cheat.sh",
+				"/home/tof/Documents/Web-test/hacker-theme/Cheat.html",
+				"/home/tof/Documents/CHEAT-SHEET/index.html",
+				"/home/tof/Documents/Arch-linux-memo/debug-archlinux.txt",
+				"/home/tof/Documents/Arch-linux-memo/fancontrol.txt",
+				"/home/tof/Documents/Scripts/scan-rezo-ping",
+				"/home/tof/Documents/Scripts/cpu-mem-etc-info.sh",
+				"/home/tof/Documents/Scripts/Open-rgb.sh",
+				"/home/tof/Documents/Scripts/pynput",
+				"/home/tof/Documents/Scripts/services.sh",
+				"/home/tof/Documents/Sav-bak-nas.log",
+				"/home/tof/Documents/SAV-endeavour-bak-nas.sh",
+				"/home/tof/Documents/Scripts/Save-celine.sh",
+				"/home/tof/Documents/Scripts/cpu-usage",
+				"/home/tof/Documents/Scripts/clean-arch.sh",
+				"/home/tof/Documents/Scripts/Arch_Cleaner.sh",
+				"/home/tof/Documents/Scripts/bellafetch.sh",
+				"/home/tof/Documents/Sav-Dot-files.sh",
+				"/home/tof/Dotfiles/hypr/hyprland.conf",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/Codes/NEW-Ultimate-list.txt",
+				"/home/tof/Documents/MDP-A-FAIRE/NEW-Ultimate-list.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/wifi.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/one.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/Nouveau document texte (2).txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/new1.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/Epsens-the.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/new.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/epsens2.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/adp.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/epsens.txt",
+				"/home/tof/Documents/MDP-A-FAIRE/wifi.txt",
+				"/home/tof/Documents/MDP-A-FAIRE/comptemicrochiote.txt",
+				"/home/tof/Documents/MDP-A-FAIRE/TOF-SAVE/Copie-pv/57468924.txt",
+				"/home/tof/Documents/MDP-A-FAIRE/box.txt",
+				"/home/tof/Documents/MDP-A-FAIRE/Afaire.txt",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/Codes/Nouveau document texte (2).txt",
+				"/home/tof/Documents/Ascii/omer",
+				"/home/tof/Documents/Ascii/felix",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/Epsens-the.txt",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/new.txt",
+				"/home/tof/Documents/help-alias",
+				"/home/tof/Documents/subl-md-git",
+				"/home/tof/Documents/index.html",
+				"/home/tof/Documents/indexxxxx.html",
+				"/home/tof/Downloads/phpinfolfi.py",
+				"/home/tof/Downloads/sol-l148.txt",
+				"/home/tof/Downloads/89.txt",
+				"/home/tof/Documents/Scripts/afficher-message-ecrans.txt",
+				"/home/tof/Documents/Scripts/mkcd",
+				"/home/tof/Dotfiles/.zshrc",
+				"/home/tof/Downloads/writeup_148.txt"
+			],
+			"find":
+			{
+				"height": 28.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"fragm"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 28.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 52.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1280.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/tof/.config/yazi/yazi-default.toml",
+					"settings":
+					{
+						"buffer_size": 6542,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					},
+					"undo_stack":
+					[
+						[
+							10,
+							1,
+							"left_delete",
+							null,
+							"AQAAABYBAAAAAAAAFgEAAAAAAAABAAAANA",
+							"AQAAAAAAAAABAAAAFwEAAAAAAAAXAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							11,
+							1,
+							"insert",
+							{
+								"characters": "2"
+							},
+							"AQAAABYBAAAAAAAAFwEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAFgEAAAAAAAAWAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							13,
+							1,
+							"left_delete",
+							null,
+							"AQAAABkBAAAAAAAAGQEAAAAAAAABAAAAMw",
+							"AQAAAAAAAAABAAAAGgEAAAAAAAAaAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							14,
+							1,
+							"insert",
+							{
+								"characters": "5"
+							},
+							"AQAAABkBAAAAAAAAGgEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAGQEAAAAAAAAZAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							19,
+							5,
+							"left_delete",
+							null,
+							"BQAAAMUBAAAAAAAAxQEAAAAAAAABAAAAZcQBAAAAAAAAxAEAAAAAAAABAAAAc8MBAAAAAAAAwwEAAAAAAAABAAAAbMIBAAAAAAAAwgEAAAAAAAABAAAAYcEBAAAAAAAAwQEAAAAAAAABAAAAZg",
+							"AQAAAAAAAAABAAAAxgEAAAAAAADGAQAAAAAAAAAAAAAAAPC/"
+						],
+						[
+							20,
+							1,
+							"insert",
+							{
+								"characters": "true"
+							},
+							"BAAAAMEBAAAAAAAAwgEAAAAAAAAAAAAAwgEAAAAAAADDAQAAAAAAAAAAAADDAQAAAAAAAMQBAAAAAAAAAAAAAMQBAAAAAAAAxQEAAAAAAAAAAAAA",
+							"AQAAAAAAAAABAAAAwQEAAAAAAADBAQAAAAAAAAAAAAAAAPC/"
+						]
+					]
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/etc/pacman.conf",
+				"/home/tof/STOCK1/SaV/Documents/MDP-A-FAIRE/NEW-Ultimate-list.txt",
+				"/home/tof/Musique/matmahta",
+				"/home/tof/.config/fastfetch/config.jsonc",
+				"/home/tof/Documents/flood-save.sh",
+				"/home/tof/Documents/sequence-video.txt",
+				"/home/tof/Documents/Tests/wf-recorder.txt",
+				"/home/tof/STOCK1/Download-Torrent/The Legend of Zelda - Echoes of Wisdom v1.0.1 + Ryujinx-Suyu Switch Emulators/The Legend of Zelda - Echoes of Wisdom v1.0.1 + Ryujinx-Suyu Switch Emulators/_How to Install.txt",
+				"/home/tof/.config/waybar2/config",
+				"/home/tof/.config/waybar2/style.css",
+				"/home/tof/.config/waybar/config",
+				"/home/tof/.config/hypr-conf1/look.conf",
+				"/home/tof/Downloads/MIROR/doc.lagout.org/find.txt",
+				"/home/tof/STOCK1/Download-Torrent/The Legend of Zelda - Echoes of Wisdom v1.0.1 + Ryujinx-Suyu Switch Emulators/_Description.txt",
+				"/home/tof/.config/0-switch/switch_hyprland_config.sh",
+				"/home/tof/.config/hypr/scripts/waybar.sh",
+				"/home/tof/.config/hypr/scripts/waybar.sh.save",
+				"/home/tof/.zshrc",
+				"/home/tof/.config/kitty/mocha.conf",
+				"/home/tof/.config/kitty/kitty.conf",
+				"/home/tof/.config/waybar/style.css",
+				"/home/tof/.config/hypr/icon.png",
+				"/home/tof/.config/hypr/look.conf",
+				"/home/tof/.config/waybar2/config.19.09",
+				"/usr/share/pipewire/pipewire.conf",
+				"/home/tof/.config/hypr/windowrules.conf",
+				"/home/tof/Documents/change-bg-sddm.sh",
+				"/home/tof/.config/hypr/hyprland.conf",
+				"/home/tof/.config/hypr/binds.conf",
+				"/home/tof/zshrc",
+				"/home/tof/Documents/CHEAT-SHEET/EnumerationCheatSheet.md",
+				"/home/tof/.config/README",
+				"/home/tof/Documents/CHEAT-SHEET/LinEnum.sh",
+				"/home/tof/copy-paste.txt",
+				"/home/tof/Documents/CHEAT-SHEET/lse.sh",
+				"/home/tof/startup.conf",
+				"/home/tof/STOCK1/Download-Torrent/[ Torrent911.rs ] Lady.in.the.Lake.S01E01.MULTi.1080p.WEB.H264-FW/Lady.in.the.Lake.S01E01.MULTi.1080p.WEB.H264-FW.nfo",
+				"/home/tof/Drive/Drive-google/voyage.memo.txt",
+				"/home/tof/.config/Ascii/felix",
+				"/home/tof/.config/audacious/config",
+				"/home/tof/STOCK1/Download-Torrent/CYGNI.All.Guns.Blazing-RUNE/_INSTALL TUTORIAL.txt",
+				"/home/tof/STOCK1/Download-Torrent/CYGNI.All.Guns.Blazing-RUNE/README.txt",
+				"/home/tof/.config/caja/scripts/Terminal-Here",
+				"/home/tof/.config/caja/scripts/Terminal-Here-Root",
+				"/home/tof/.config/neofetch/config.conf",
+				"/home/tof/.config/caja/scripts/Word-Count",
+				"/home/tof/DATAX1/torrents/Films-terminés/[ Torrent911.gs ] L.incroyable.embouteillage.2.vive.les.maries.2024.FRENCH.1080p.WEB.x264-FW/L.incroyable.embouteillage.2.vive.les.maries.2024.FRENCH.1080p.WEB.x264-FW.nfo",
+				"/home/tof/.config/user-dirs.locale",
+				"/home/tof/Documents/CHEAT....txt",
+				"/srv/http/index.html",
+				"/home/tof/Downloads/levelx00.py",
+				"/home/tof/Documents/SAV-arch-nas.sh",
+				"/home/tof/Documents/cheat.sh",
+				"/home/tof/Documents/Srv/cheat.sh",
+				"/srv/http/cheat.sh",
+				"/home/tof/Documents/Web-test/hacker-theme/Cheat.html",
+				"/home/tof/Documents/CHEAT-SHEET/index.html",
+				"/home/tof/Documents/Arch-linux-memo/debug-archlinux.txt",
+				"/home/tof/Documents/Arch-linux-memo/fancontrol.txt",
+				"/home/tof/Documents/Scripts/scan-rezo-ping",
+				"/home/tof/Documents/Scripts/cpu-mem-etc-info.sh",
+				"/home/tof/Documents/Scripts/Open-rgb.sh",
+				"/home/tof/Documents/Scripts/pynput",
+				"/home/tof/Documents/Scripts/services.sh",
+				"/home/tof/Documents/Sav-bak-nas.log",
+				"/home/tof/Documents/SAV-endeavour-bak-nas.sh",
+				"/home/tof/Documents/Scripts/Save-celine.sh",
+				"/home/tof/Documents/Scripts/cpu-usage",
+				"/home/tof/Documents/Scripts/clean-arch.sh",
+				"/home/tof/Documents/Scripts/Arch_Cleaner.sh",
+				"/home/tof/Documents/Scripts/bellafetch.sh",
+				"/home/tof/Documents/Sav-Dot-files.sh",
+				"/home/tof/Dotfiles/hypr/hyprland.conf",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/Codes/NEW-Ultimate-list.txt",
+				"/home/tof/Documents/MDP-A-FAIRE/NEW-Ultimate-list.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/wifi.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/one.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/Nouveau document texte (2).txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/new1.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/Epsens-the.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/new.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/epsens2.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/adp.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/epsens.txt",
+				"/home/tof/Documents/MDP-A-FAIRE/wifi.txt",
+				"/home/tof/Documents/MDP-A-FAIRE/comptemicrochiote.txt",
+				"/home/tof/Documents/MDP-A-FAIRE/TOF-SAVE/Copie-pv/57468924.txt",
+				"/home/tof/Documents/MDP-A-FAIRE/box.txt",
+				"/home/tof/Documents/MDP-A-FAIRE/Afaire.txt",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/Codes/Nouveau document texte (2).txt",
+				"/home/tof/Documents/Ascii/omer",
+				"/home/tof/Documents/Ascii/felix",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/Epsens-the.txt",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/new.txt",
+				"/home/tof/Documents/help-alias",
+				"/home/tof/Documents/subl-md-git",
+				"/home/tof/Documents/index.html",
+				"/home/tof/Documents/indexxxxx.html",
+				"/home/tof/Downloads/phpinfolfi.py",
+				"/home/tof/Downloads/sol-l148.txt",
+				"/home/tof/Downloads/89.txt",
+				"/home/tof/Documents/Scripts/afficher-message-ecrans.txt",
+				"/home/tof/Documents/Scripts/mkcd",
+				"/home/tof/Dotfiles/.zshrc",
+				"/home/tof/Downloads/writeup_148.txt"
+			],
+			"find":
+			{
+				"height": 28.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"fragm"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/tof/.config/yazi/yazi-default.toml",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6542,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										453,
+										453
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 946.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 28.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,1258,1416,2560,1440,0",
+			"project": "",
+			"replace":
+			{
+				"height": 52.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

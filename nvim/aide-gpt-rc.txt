@@ -1,0 +1,165 @@
+Configuration de base
+
+vim
+
+" Utilise les fonctionnalités de Neovim si disponibles
+if has('nvim')
+  set termguicolors
+endif
+
+" Paramètres de base
+set number              " Affiche les numéros de ligne
+set relativenumber      " Affiche les numéros de ligne relatifs
+set tabstop=4           " Nombre d'espaces pour une tabulation
+set shiftwidth=4        " Nombre d'espaces pour l'indentation
+set expandtab           " Utilise des espaces au lieu des tabulations
+set smartindent         " Indentation intelligente
+set autoindent          " Indentation automatique
+set cursorline          " Met en surbrillance la ligne actuelle
+set wrap                " Active le retour à la ligne automatique
+set clipboard=unnamedplus " Utilise le presse-papier du système
+set ignorecase          " Recherche insensible à la casse
+set smartcase           " Recherche sensible à la casse si la recherche contient des majuscules
+
+" Apparence
+set background=dark     " Conçu pour les schémas de couleurs sombres
+colorscheme desert      " Change le schéma de couleurs (tu peux en choisir un autre)
+
+" Gestion des sauvegardes
+set backup              " Active les sauvegardes
+set backupdir=~/.local/share/nvim/backup// " Répertoire de sauvegarde
+set undofile            " Active l'historique des modifications
+set undodir=~/.local/share/nvim/undo// " Répertoire de l'historique des modifications
+
+" Plugins
+call plug#begin('~/.local/share/nvim/plugged')
+
+" Gestionnaire de plugins
+Plug 'junegunn/vim-plug'
+
+" Plugins recommandés
+Plug 'tpope/vim-sensible'           " Paramètres de base sensés
+Plug 'scrooloose/nerdtree'          " Navigateur de fichiers
+Plug 'itchyny/lightline.vim'        " Barre d'état légère
+Plug 'airblade/vim-gitgutter'       " Affiche les modifications Git
+Plug 'junegunn/fzf.vim'             " Interface de fuzzy find
+Plug 'junegunn/goyo.vim'            " Mode de concentration
+
+call plug#end()
+
+" Mappings pratiques
+nnoremap <C-n> :NERDTreeToggle<CR>  " Ctrl+n pour ouvrir/fermer NERDTree
+nnoremap <C-p> :Files<CR>           " Ctrl+p pour fuzzy find
+nnoremap <C-s> :w<CR>               " Ctrl+s pour sauvegarder
+inoremap jk <Esc>                   " jk pour sortir du mode insertion
+
+Explications
+
+    Paramètres de base : Ces lignes configurent les options générales de Neovim, comme l'affichage des numéros de ligne, l'indentation, et les options de recherche.
+    Apparence : Ces lignes définissent le schéma de couleurs et d'autres aspects visuels de l'éditeur.
+    Gestion des sauvegardes : Ces options définissent comment et où Neovim gère les fichiers de sauvegarde et les historiques de modifications.
+    Plugins : Utilisation de vim-plug pour gérer les plugins. Les plugins recommandés ajoutent des fonctionnalités comme la navigation de fichiers, une barre d'état, et des intégrations Git.
+    Mappings pratiques : Ces raccourcis clavier rendent certaines actions plus rapides, comme ouvrir/fermer NERDTree, lancer une recherche fuzzy, ou sauvegarder rapidement.
+
+Pour installer les plugins avec vim-plug, n'oublie pas de lancer la commande :PlugInstall dans Neovim après avoir ajouté ces lignes à ton fichier de configuration.
+
+Tu peux ajuster cette configuration selon tes préférences et besoins spécifiques.
+E492: Commande inconnue: PlugInstall
+ChatGPT
+
+L'erreur E492: Commande inconnue: PlugInstall indique que Neovim ne reconnaît pas la commande PlugInstall. Cela se produit généralement parce que vim-plug n'est pas encore installé ou chargé correctement. Voici les étapes pour installer vim-plug et configurer Neovim avec des plugins :
+Étape 1 : Installer vim-plug
+
+    Télécharger vim-plug : Utilise la commande suivante dans ton terminal pour télécharger vim-plug :
+
+    sh
+
+    curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+Étape 2 : Configurer init.vim
+
+    Créer le fichier de configuration (s'il n'existe pas encore) :
+
+    sh
+
+mkdir -p ~/.config/nvim
+touch ~/.config/nvim/init.vim
+
+Éditer init.vim pour inclure la configuration de base et les plugins :
+
+vim
+
+    " Utilise les fonctionnalités de Neovim si disponibles
+    if has('nvim')
+      set termguicolors
+    endif
+
+    " Paramètres de base
+    set number              " Affiche les numéros de ligne
+    set relativenumber      " Affiche les numéros de ligne relatifs
+    set tabstop=4           " Nombre d'espaces pour une tabulation
+    set shiftwidth=4        " Nombre d'espaces pour l'indentation
+    set expandtab           " Utilise des espaces au lieu des tabulations
+    set smartindent         " Indentation intelligente
+    set autoindent          " Indentation automatique
+    set cursorline          " Met en surbrillance la ligne actuelle
+    set wrap                " Active le retour à la ligne automatique
+    set clipboard=unnamedplus " Utilise le presse-papier du système
+    set ignorecase          " Recherche insensible à la casse
+    set smartcase           " Recherche sensible à la casse si la recherche contient des majuscules
+
+    " Apparence
+    set background=dark     " Conçu pour les schémas de couleurs sombres
+    colorscheme desert      " Change le schéma de couleurs (tu peux en choisir un autre)
+
+    " Gestion des sauvegardes
+    set backup              " Active les sauvegardes
+    set backupdir=~/.local/share/nvim/backup// " Répertoire de sauvegarde
+    set undofile            " Active l'historique des modifications
+    set undodir=~/.local/share/nvim/undo// " Répertoire de l'historique des modifications
+
+    " Installer vim-plug si ce n'est pas déjà fait
+    if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
+      silent !curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+      autocmd VimEnter * PlugInstall
+    endif
+
+    " Plugins
+    call plug#begin('~/.local/share/nvim/plugged')
+
+    " Plugins recommandés
+    Plug 'junegunn/vim-plug'
+    Plug 'tpope/vim-sensible'
+    Plug 'preservim/nerdtree'
+    Plug 'itchyny/lightline.vim'
+    Plug 'airblade/vim-gitgutter'
+    Plug 'junegunn/fzf.vim'
+    Plug 'junegunn/goyo.vim'
+
+    call plug#end()
+
+    " Mappings pratiques
+    nnoremap <C-n> :NERDTreeToggle<CR>  " Ctrl+n pour ouvrir/fermer NERDTree
+    nnoremap <C-p> :Files<CR>           " Ctrl+p pour fuzzy find
+    nnoremap <C-s> :w<CR>               " Ctrl+s pour sauvegarder
+    inoremap jk <Esc>                   " jk pour sortir du mode insertion
+
+Étape 3 : Installer les plugins
+
+    Ouvrir Neovim :
+
+    sh
+
+nvim
+
+Lancer l'installation des plugins en exécutant la commande suivante dans Neovim :
+
+vim
+
+    :PlugInstall
+
+Conclusion
+
+Après avoir suivi ces étapes, vim-plug devrait être installé et tes plugins configurés correctement. Assure-toi de relancer Neovim après l'installation des plugins pour que les changements prennent effet.

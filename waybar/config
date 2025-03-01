@@ -1,0 +1,168 @@
+{
+    "layer": "top",
+    "position": "top",
+    "mod": "dock",
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "height": 15,
+     "fixed-center": true,
+     "ipc": true,
+"modules-left": ["custom/launch_wofi","hyprland/workspaces","cpu","memory","disk","disk#2", "hyprland/window"],
+"modules-center": ["clock","custom/network_traffic","custom/updates"],
+"modules-right": ["custom/media", "custom/cava","pulseaudio", "wlr/taskbar", "tray", "custom/lock_screen","custom/power_btn"],
+
+    "custom/launch_wofi": {
+        "format": "  ",
+        "on-click": "pkill wofi; wofi -n",
+        "tooltip": false
+    },
+    "custom/lock_screen": {
+        "format": "",
+        "on-click": "sh -c '(sleep 0.5s; swaylock)' & disown",
+        "tooltip": false
+    },
+    "custom/power_btn": {
+        "format": "",
+        "on-click": "sh -c '(sleep 0.5s; wlogout --protocol layer-shell)' & disown",
+        "tooltip": false
+    },
+    "cpu": {
+        "interval": 10,
+        "format": " {usage}%",
+        "max-length": 10,
+        "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'"
+    },
+    "disk": {
+        "interval": 30,
+        "format": "󰋊 {percentage_used}%",
+        "path": "/",
+        "tooltip": true,
+        "tooltip-format": "HDD - {used} used out of {total} on {path} ({percentage_used}%)",
+        "on-click": "kitty --start-as=fullscreen --title xplr sh -c 'xplr'"
+    },
+     "disk#2": {
+        "interval": 30,
+        "format": "󰋊 {percentage_used}%",
+        "path": "/home/tof/STOCK1",
+        "tooltip": true,
+        "tooltip-format": "HDD - {used} used out of {total} on {path} ({percentage_used}%)",
+        "on-click": "kitty --start-as=fullscreen --title xplr sh -c 'xplr'"
+    },
+    "memory": {
+        "interval": 30,
+        "format": " {}%",
+        "max-length": 10,
+        "tooltip": true,
+        "tooltip-format": "Memory - {used:0.1f}GB used",
+        "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'"
+    },
+    "custom/updates": {
+        "format": "{}",
+        "exec": "~/.config/waybar/scripts/update-sys",
+        "on-click": "~/.config/waybar/scripts/update-sys update",
+        "interval": 300,
+        "tooltip": true
+
+    },
+
+    "hyprland/workspaces": {
+		"disable-scroll": true,
+        "on-click": "activate",
+        "all-outputs": true,
+        "active-only": false,
+        "persistent-workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": [],
+            "6": [],
+            "7": [],
+            "8": [],
+            "9": [],
+        },
+        "format": "{icon}",
+        "format-icons": {
+            "active": "<span font='12' color='#00ff00'>󰮯</span>",
+            "empty": "<span font='12'></span>",
+            "persistent": "<span font='12'>󰊠</span>",
+},
+
+    },
+   
+
+
+	"clock": {
+        "interval": 1,
+        "format": "{:%I:%M %p}",
+        "format-alt": "{:%r 󰃭 %a, %d %b %Y}",
+        "rotate": 0,
+
+    },
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "",
+        "on-click": "pamixer -t",
+        "on-click-right": "pavucontrol",
+        "on-scroll-up": "pamixer -i 5",
+        "on-scroll-down": "pamixer -d 5",
+        "scroll-step": 5,
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+    },
+    "keybinds": {
+        "438u": "pamixer -i 5",
+        "439u": "pamixer -d 5"
+        }
+},
+
+     "custom/network_traffic": {
+             "exec": "~/.config/waybar/scripts/network_traffic.sh enp7s0",
+             "return-type": "json",
+             "format": "{}",    // optional
+
+},
+
+    "custom/media": {
+        "format": "{icon} {}",
+        "return-type": "json",
+        "max-length": 100,
+        "format-icons": {
+            "spotify": "",
+            "default": "🎜"
+        },
+        "escape": true,
+        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
+        // "exec": "$HOME/.config/waybar/mediaplayer.py --player audacious 2> /dev/null" // Filter player based on name
+
+},
+
+
+"wlr/taskbar": {
+    "format": "{icon}",
+    "all-outputs": true,
+    "icon-size": 14,
+    "icon-theme": "candy-icons",
+    "tooltip-format": "{title}",
+    "on-click": "activate",
+    "on-click-middle": "close",
+    "app_ids-mapping": {
+      "firefoxdeveloperedition": "firefox-developer-edition"
+    },
+    "rewrite": {
+      "Firefox Web Browser": "Firefox",
+      "Foot Server": "Terminal"
+    }
+  },
+     "custom/cava": {
+             "exec": "~/.config/waybar/scripts/executable_Cava-internal.sh",
+			}
+},
+
