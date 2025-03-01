@@ -8,23 +8,22 @@
 Hyprland
 
 > Status Waybar         : 
-Waybar, Btop, Vtop, Neofetch
+Waybar, Btop, Fastfetch
 
 ```
    https://github.com/Alexays/Waybar
    https://github.com/aristocratos/btop
-   https://github.com/dylanaraps/neofetch
 ```
 
 >Terminal Emulator     : 
-Alacritty, Oh-my-Zsh, Foot, Kitty
+Alacritty, Oh-my-Zsh, Kitty
 ```
    https://github.com/alacritty/alacritty
    https://github.com/ohmyzsh/ohmyzsh
 ```
 
 >App Manager            : 
-Wofi, Dunst, Swaylock, wlogout, Nwg-look, VirtualBox
+Wofi, Dunst, Swaylock, wlogout, Nwg-look,
 ``` 
    https://hg.sr.ht/~scoopta/wofi
    https://github.com/dunst-project/dunst
@@ -32,7 +31,7 @@ Wofi, Dunst, Swaylock, wlogout, Nwg-look, VirtualBox
 ```
 
 >File Manager, Audio, Video         : 
-Caja, Ranger, Audacious, Vlc, Sublime-text
+Caja, Ranger,Yazi, Audacious, Vlc, Sublime-text
 ```
    https://github.com/ranger/ranger
 ```
@@ -53,10 +52,15 @@ Bat, Cava, Lsd ...
 ```
    https://github.com/LGFae/swww
 ```
->My Wallppapers :
+>My Wallppapers : All...here
 ```
 https://mega.nz/folder/j2xDmKwa#pvvJIihnMz6_mtJLwGl2fg
 ```
+
+
+
+
+
 ![sc](https://github.com/letof7/Dot-files/assets/31816885/c6c2cdbd-28aa-4dc6-baee-7f929962f1ce)
 
 
