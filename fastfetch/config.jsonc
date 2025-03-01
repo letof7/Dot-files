@@ -1,0 +1,82 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "type": "kitty",
+        "source": "$(find \"${XDG_CONFIG_HOME:-$HOME/.config}/fastfetch/pngs/\" -name \"*.png\" | sort -R | head -1)",
+        "height": 13,
+        "recache": true
+    },
+    "display": {
+        "separator": " : "
+    },
+    "modules": [
+        {
+            "type": "title",
+            "format": "    {6}{7}{8}"
+        },
+        "break",
+        {
+            "key": "{#dim_white}╭{#dim_white}󰣇  OS        ",
+            "keyColor": "white",
+            "type": "os",
+            "outputColor": "bright_white",
+            "format": "{3} {10}"
+        },
+        {
+            "key": "{#dim_white}│   {#dim_white}│├─{#dim_white}󰌢 Machine",
+            "type": "host",
+            "format": "{2}"
+        },
+        {
+            "key": "{#dim_white}│   {#dim_white}│╰─{#dim_white} Kernel ",
+            "type": "kernel",
+            "format": "{1} {2}"
+        },
+        {
+            "key": "{#dim_white}│   {#dim_white}├─{#dim_white}󰻠 CPU     ",
+            "type": "cpu",
+            "format": "{1}"
+        },
+        {
+            "key": "{#dim_white}│   {#dim_white}├─{#dim_white}󰍛 GPU     ",
+            "type": "gpu",
+            "hideType": "integrated",
+            "format": "{1} {2}"
+        },
+        {
+            "key": "{#dim_white}│   {#dim_white}╰─{#dim_white} Battery ",
+            "type": "battery",
+            "temp": true,
+            "useSetupApi": true,
+            "format": "{10}{4} [{5}]  {8}"
+        },
+        {
+            "type": "custom",
+            "outputColor": "dim_white",
+            "format": "┴"
+        },
+        {
+            "key": "  Terminal   ",
+            "type": "terminal",
+            "outputColor": "dim_white",
+            "keyColor": "white"
+        },
+        {
+            "key": "    {#dim_white}├─{#dim_white} Shell   ",
+            "type": "shell"
+        },
+        {
+            "key": "    {#dim_white}├─{#dim_white} WM      ",
+            "type": "wm"
+        },
+        {
+            "key": "    {#dim_white}├─{#dim_white}󰇄 DE      ",
+            "type": "de"
+        },
+        {
+            "key": "    {#dim_white}╰─{#dim_white} Packages",
+            "type": "packages"
+        },
+        "break"
+    ]
+}

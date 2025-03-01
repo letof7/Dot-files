@@ -1,0 +1,13 @@
+#!/bin/bash
+# 20-03-2016 - Titanio
+# Web: http://tetratitanio.blogspot.com/
+# Licencia: GNU General Public License.
+# Instalación: Solo funciona en "Caja", copia este archivo en el directorio ~/.config/caja/scripts y otorgarle permisos de ejecución.
+# El script mueve los archivos o carpetas seleccionados al directorio ~/Documentos
+
+FILE=`echo -n $CAJA_SCRIPT_SELECTED_FILE_PATHS`
+
+DESTINATION=$HOME/Documents
+cp -i "$@" "$DESTINATION"
+exit
+

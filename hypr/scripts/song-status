@@ -1,0 +1,6 @@
+#!/bin/bash
+player_name=$(playerctl metadata --format '{{playerName}}')
+player_status=$(playerctl status)
+song_info=$(playerctl metadata title)
+echo "$player_name  $player_status"
+echo "$song_info" 
