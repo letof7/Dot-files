@@ -1,69 +1,16 @@
-![sc](https://github.com/letof7/Dot-files/blob/main/output.gif?raw=true)
-![sc](https://github.com/letof7/Dot-files/blob/main/output2.gif?raw=true)
 
+![sc](https://github.com/letof7/Dot-files/blob/main/output2.gif?raw=true)
 
 > This repository contains my personal dotfiles for my Arch setup. It is customized for the Hyprland desktop environment.
 
-> Desktop Environment   : 
-Hyprland
 
-> Status Waybar         : 
-Waybar, Btop, Fastfetch
-
-```
-   https://github.com/Alexays/Waybar
-   https://github.com/aristocratos/btop
-```
-
->Terminal Emulator     : 
-Alacritty, Oh-my-Zsh, Kitty
-```
-   https://github.com/alacritty/alacritty
-   https://github.com/ohmyzsh/ohmyzsh
-```
-
->App Manager            : 
-Wofi, Dunst, Swaylock, wlogout, Nwg-look,
-``` 
-   https://hg.sr.ht/~scoopta/wofi
-   https://github.com/dunst-project/dunst
-   https://github.com/swaywm/swaylock
-```
-
->File Manager, Audio, Video         : 
-Caja, Ranger,Yazi, Audacious, Vlc, Sublime-text
-```
-   https://github.com/ranger/ranger
-```
-
->Misc                    :
-Bat, Cava, Lsd ...
-```
-   https://github.com/sharkdp/bat
-   https://github.com/karlstav/cava
-   https://github.com/lsd-rs/lsd
-
-   curl cheat.sh >>>      https://cheat.sh/
-
-```
-
-
->Wallpaper Manager     : Swww
-```
-   https://github.com/LGFae/swww
 ```
 >My Wallppapers : All...here
-```
 https://mega.nz/folder/j2xDmKwa#pvvJIihnMz6_mtJLwGl2fg
 ```
 
 
-
-
-
 ![sc](https://github.com/letof7/Dot-files/assets/31816885/c6c2cdbd-28aa-4dc6-baee-7f929962f1ce)
-
-
 
 
 
