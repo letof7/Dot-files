@@ -1,60 +1,53 @@
-window {
-  opacity: 1;
-  background: transparent;
-  border: 0px solid rgba(244, 244, 244, 0.9);
-  border-radius: 5px;
-  font-family: Ubuntu Nerd Font;
-  font-size: 14px;
-}
+#window {
+    margin: 0px;
+    border: 1px solid #cccccc;
+    background-color: rgba(20, 20, 20, 0.6); /* fond semi-transparent */
+    border-radius: 16px;
+    backdrop-filter: blur(12px);             /* effet flou */
+    -webkit-backdrop-filter: blur(12px);     /* support Safari */
 
-* {
-  outline: none;
+
 }
 
 #input {
-  border-radius: 100px;
-  border: 0px;
-  padding: 10px;
-  margin: 0px;
-  color: white;
-  background-color: #1b1b1b;
+    margin: 5px;
+    border: none;
+    color: #23232b;
+    background-color: #44475a;
+    border-radius: 8px;                /* Optionnel : arrondir aussi l'input */
 }
 
 #inner-box {
-  margin: 0px;
-  background: transparent;
-  /* color: @base06;
-	background-color: @base00; */
+    margin: 5px;
+    border: none;
+    background-color: #23232b;
+    border-radius: 8px;                /* Optionnel */
 }
+
+
 
 #outer-box {
-  margin: 0px;
-  background-color: rgba(27, 27, 27, 0.5);
-  border-radius: 20px;
-  padding: 10px;
-}
+    margin: 5px;
+    border: none;
+    background-color: rgba(20, 20, 20, 0.4); /* fond semi-transparent */
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 
-#entry:selected {
-  background: linear-gradient(45deg, #04060f, #3f3f3f);
-  border-radius: 20px;
-}
 
-#entry {
-  padding: 5px;
-  margin: 2px;
-  border-radius: 20px;
-  background-color: rgb(27, 27, 27);
-}
 
 #scroll {
-  margin: 5px;
+    margin: 0px;
+    border: none;
 }
 
 #text {
-  margin: 0px;
-  padding: 2px 2px 2px 10px;
+    margin: 5px;
+    border: none;
+    color: #ffffff;
 }
 
-expander > list {
-  border-radius: 20px;
+#entry:selected {
+    background-color: #111111;
+    border-radius: 8px;                /* Optionnel : effet plus doux à la sélection */
 }

@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "hyprlock",
+    "action" : "mpvlock",
     "text" : "Lock",
     "keybind" : "l"
 }
@@ -30,7 +30,7 @@
 }
 {
     "label" : "hibernate",
-    "action" : "systemctl hibernate",
+    "action" : "mpvlock"
     "text" : "Hibernate",
     "keybind" : "h"
 }

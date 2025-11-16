@@ -1,24 +1,9 @@
-# ==========================================
-# Configuration de base
-# ==========================================
-
-# Powerlevel10k instant prompt (pour un démarrage rapide)
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
-# Oh My Zsh
 export ZSH="$HOME/.oh-my-zsh"
 export EDITOR='nano'
 export BROWSER='firefox'
-export HISTORY_IGNORE="(ls|cd|pwd|exit|history|cd -|cd ..)"
 export LC_ALL=fr_FR.UTF-8
-
+eval "$(oh-my-posh --init --shell zsh --config /home/tof/.config/poshthemes/1_shell.omp.json)"
 # ==========================================
-# Configuration de l'historique
-# ==========================================
-
-# HISTFILE=~/.config/zsh/zhistory
 HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory       # Ajoute à l'historique au lieu de l'écraser
@@ -27,61 +12,39 @@ setopt hist_ignore_space   # Ignore les commandes commençant par un espace
 setopt hist_ignore_all_dups # Ignore les doublons dans l'historique
 setopt hist_save_no_dups   # Ne sauvegarde pas les doublons
 setopt hist_find_no_dups   # Ignore les doublons lors de la recherche
-
 # ==========================================
-# Complétion Zsh
-# ==========================================
-
-# Activation de la complétion verbose
 zstyle ':completion:*' verbose true
-
-# Menu de sélection pour la complétion
 zstyle ':completion:*:*:*:*:*' menu select
-
-# Couleurs pour la complétion (basées sur LS_COLORS)
-zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS} 'ma=48;5;197;1'
-
-# Correspondance intelligente (ignore la casse, correspondance partielle)
 zstyle ':completion:*' matcher-list \
     'm:{a-zA-Z}={A-Za-z}' \
     '+r:|[._-]=* r:|=*' \
     '+l:|=*'
-
-# Messages personnalisés pour les avertissements et descriptions
-zstyle ':completion:*:warnings' format "%B%F{red}No matches for:%f %F{magenta}%d%b"
+zstyle ':completion:*:warnings' format "%B%F{red}Ba je trouve pas:%f %F{magenta}%d%b"
 zstyle ':completion:*:descriptions' format '%F{yellow}[-- %d --]%f'
-
-# Informations VCS (Git) dans le prompt
 zstyle ':vcs_info:*' formats ' %B%s-[%F{magenta}%f %F{yellow}%b%f]-'
 
 # ==========================================
-# Thème et plugins Oh My Zsh
-# ==========================================
-
-ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
     git
     colorize
     zsh-autosuggestions
-    zsh-syntax-highlighting
     zsh-completions
     auto-notify
     extract
     history-substring-search
+zsh-syntax-highlighting
 )
-
 source $ZSH/oh-my-zsh.sh
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+unsetopt LIST_BEEP
+unsetopt AUTO_LIST
 
 # ==========================================
-# Alias système
-# ==========================================
-
 alias aide='kitty zsh -c "~/aide.sh; exec zsh"'
-
 alias z='kitty sh -c "grep -E \"^alias \" ~/.zshrc; exec zsh"'
 alias reload="source ~/.zshrc && fastfetch"
 alias c='clear'
+alias re="c;reload"
 alias psaux="ps -aux | grep -i"
 alias clean="bash ~/Documents/clean-arch.sh | lolcat"
 alias save="bash ~/Documents/SAV-arch-nas.sh | lolcat"
@@ -89,11 +52,9 @@ alias maj="yay -Syyuu --noconfirm"
 alias reflect="sudo reflector --verbose --latest 20 -c FR -c DE6 --sort rate --download-timeout 5 --threads 5 --save /etc/pacman.d/mirrorlist"
 alias info="sudo inxi -F"
 alias du="duf"
-
 # ==========================================
-# Alias gestion de fichiers
-# ==========================================
-
+alias roblox="flatpak run org.vinegarhq.Sober"
+#__________________________________________
 alias icat="kitten icat"
 alias cat="bat --theme ansi"
 alias ls='lsd --group-directories-first'
@@ -106,9 +67,6 @@ alias kat="/usr/bin/cat"
 alias tree=gt
 alias find="fd -H -a" 
 # ==========================================
-# Alias navigation
-# ==========================================
-
 alias tele="cd ~/Downloads && pwd && ls -al"
 alias doc="cd ~/Documents && pwd && ll"
 alias torrent="cd /home/tof/STOCK1/Download-Torrent && pwd && ls -al"
@@ -122,84 +80,44 @@ alias zic="cd /home/tof/Musique/ && pwd && ll"
 alias musique=zic
 alias games="cd ~/STOCK1/Gamez && pwd && ll"
 alias gamez="games"
-
-
 alias ..='cd .. && pwd'
 alias ...='cd ../.. && pwd'
 alias ....='cd ../../.. && pwd'
-
 # ==========================================
-# Alias réseau
-# ==========================================
-
 alias server="python3 -m http.server 8000"
 alias meteo="curl 'http://wttr.in/${1:-nancy}'"
 alias wg="wcurl"
 alias ip="ip -brief --color=auto"
-alias sshk="alacritty -e ssh kali@192.168.1.228"
 alias down="http --download"
-
 # ==========================================
-# Alias développement
-# ==========================================
-
 alias nano="nano -Y sh"
 alias grep="grep --color=auto -i"
 alias cheat="curl cheat.sh"
 alias hg="history | grep "
 alias help=cheat
+alias word=desktopeditors
+alias office=desktopeditors
 
 # ==========================================
-# Alias VirtualBox
-# ==========================================
-
 alias vmrun="VBoxManage list runningvms"
 alias vmlist="vboxmanage list vms"
-#kali-linux-2024.4-virtualbox-amd64
-alias kali="VBoxManage startvm "kali-linux-2024.4-virtualbox-amd64" --type headless"
-alias killkali="VBoxManage controlvm "kali-linux-2024.4-virtualbox-amd64" poweroff"
-
 # ==========================================
-# Alias divers
-# ==========================================
-
+alias youtube="bash /home/tof/Documents/Scripts/youtube.sh"
 alias changebg="bash /home/tof/Documents/change-bg-sddm.sh"
-alias roblox="flatpak run org.vinegarhq.Sober"
-
 [ "$TERM" = "xterm-kitty" ] && alias ssh="kitty +kitten ssh"
-
 # ==========================================
-# Fonctions personnalisées
-# ==========================================
-
 mkcd() { mkdir -p "$1" && cd "$1"; }
 killvm() { VBoxManage controlvm "$1" poweroff; }
 startvm() { VBoxManage startvm "$1" --type headless; }
 fdz() { find / -type f -iname "*$1*" 2>/dev/null; }
 neof() { neofetch | lolcat -f; }
 yt() { yt-dlp -x --audio-format mp3 "$1"; }
-
-# ==========================================
-# Gestion des commandes inconnues
 # ==========================================
 
-command_not_found_handler() {
-    printf "%s%s? Je ne connais pas cette putain de commande\n" "$acc" "$0" >&2
-    return 127
-}
+export GITSTATUS_LOG_LEVEL=DEBUG
+export PATH="$PATH:$HOME/.local/bin"
 
 # ==========================================
-# Configuration de Bun (JavaScript runtime)
-# ==========================================
-
-[ -s "/home/tof/.bun/_bun" ] && source "/home/tof/.bun/_bun"
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-
-# ==========================================
-# Configuration des couleurs pour `ls`
-# ==========================================
-
 export LS_COLORS="\
 di=38;5;255:\
 ln=38;5;105:\
@@ -245,16 +163,40 @@ ow=38;5;255;48;5;240:\
 *.odt=38;5;249:\
 "
 
-## [Completion]
-## Completion scripts setup. Remove the following line to uninstall
 [[ -f /home/tof/.dart-cli-completion/zsh-config.zsh ]] && . /home/tof/.dart-cli-completion/zsh-config.zsh || true
-## [/Completion]
 
 # du = duf (diskfree)
 # dust = disk usage whuith graf
 # fd = find
 # rg = grep -R . (ripgrep)
 # tldr = mané
-#
-#
-#
+
+# Fonction pour préfixer les requêtes à Gemini-CLI
+gem() {
+    # Chemin vers le fichier contenant le prompt système
+    PROMPT_FILE="$HOME/.gemini_prompt.txt"
+
+    # Vérifie si le fichier de prompt existe
+    if [ ! -f "$PROMPT_FILE" ]; then
+        echo "Erreur : Fichier de prompt non trouvé à $PROMPT_FILE"
+        return 1
+    fi
+
+    # Concatène le prompt système et la question de l'utilisateur, puis envoie à gemini-cli
+    # Le "-" indique à `cat` de lire aussi l'entrée standard (stdin)
+    (cat "$PROMPT_FILE"; echo "$@") | gemini 2>/dev/null | mdcat
+}
+
+
+# sudo pacman -S pkgfile && sudo pkgfile -u
+command_not_found_handler() {
+    local pkg
+    if pkg=$(pkgfile -b "$1" 2>/dev/null); then
+        echo "Commande '$1' non trouvée. Elle est disponible dans le paquet :"
+        echo "    $pkg"
+        echo "Pour l'installer : sudo pacman -S $pkg"
+    else
+        printf "zsh: command not found: %s\n" "$1" >&2
+    fi
+    return 127
+}

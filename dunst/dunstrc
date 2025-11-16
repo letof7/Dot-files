@@ -223,4 +223,3 @@
     timeout = 0
     # Icon for notifications with critical urgency, uncomment to enable
     icon = "/home/tof/.config/dunst/icons/critical.svg"
-

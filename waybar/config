@@ -1,105 +1,157 @@
 {
     "layer": "top",
     "position": "top",
-    "mod": "dock",
-    "exclusive": true,
-    "passthrough": false,
-    "gtk-layer-shell": true,
     "height": 15,
-     "fixed-center": true,
-     "ipc": true,
-"modules-left": ["custom/launch_wofi","hyprland/workspaces","cpu","memory","disk","disk#2", "hyprland/window"],
-"modules-center": ["clock","custom/network_traffic","custom/updates"],
-"modules-right": ["custom/media", "custom/cava","pulseaudio", "wlr/taskbar", "tray", "custom/lock_screen","custom/power_btn"],
+    "width": 2530,
+    "margin": "3, 0, 2, 0",
 
-    "custom/launch_wofi": {
-        "format": "  ",
-        "on-click": "pkill wofi; wofi -n",
-        "tooltip": false
+    "modules-left": [
+    "cpu",
+    "custom/separator",
+    "memory",
+    "custom/separator",
+    "disk",
+    "disk#2",
+    "custom/separator",
+    "hyprland/window"
+    ],
+
+    "modules-center": [
+    "custom/screenshot",
+    "tray",
+    "custom/separator",
+    "hyprland/workspaces",
+    "custom/separator",
+    "wlr/taskbar"
+    ],
+
+    "modules-right": [
+        "network",
+        "custom/separator",
+
+    
+    "clock",
+    "custom/separator",
+    "pulseaudio",
+    "custom/separator",
+    "custom/power_btn",
+    ],
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "icon-size": 30,
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "󰎇",
+            "4": "",
+            "5": "",
+            "6": "󰮯",
+            "7": "󰮯",
+            "8": "󰼸",
+            "9": "󰮯",
+            "urgent": "",
+            "focused": "",
+            "default": ""
+    }
+
+
     },
-    "custom/lock_screen": {
-        "format": "",
-        "on-click": "sh -c '(sleep 0.5s; swaylock)' & disown",
+
+    "custom/screenshot": {
+    "format": "󰹑 ",
+    "tooltip": "Capture d'écran",
+    "on-click": "grim -g \"$(slurp)\" ~/Documents/Imgs/screen-shot/screenshot_$(date +'%Y-%m-%d_%H-%M-%S').png"
+    
+    },
+    "custom/separator": {
+	"format": "<span foreground='#ffffff'>  </span>",
+        "interval": "once",
         "tooltip": false
     },
     "custom/power_btn": {
-        "format": "",
+	"format": "<span foreground='#ff5555'>  </span>",
+        "icon-size": 30,
         "on-click": "sh -c '(sleep 0.5s; wlogout --protocol layer-shell)' & disown",
         "tooltip": false
     },
-    "cpu": {
-        "interval": 10,
-        "format": " {usage}%",
-        "max-length": 10,
-        "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'"
+     "custom/network_traffic": {
+             "exec": "~/.config/waybar/scripts/network_traffic.sh enp7s0",
+             "return-type": "json",
+             "format": "{}",    // optional
     },
-    "disk": {
-        "interval": 30,
-        "format": "󰋊 {percentage_used}%",
-        "path": "/",
-        "tooltip": true,
-        "tooltip-format": "HDD - {used} used out of {total} on {path} ({percentage_used}%)",
-        "on-click": "kitty --start-as=fullscreen --title xplr sh -c 'xplr'"
+    "tray": {
+        "icon-size": 20,
+        "spacing": 6
     },
-     "disk#2": {
-        "interval": 30,
-        "format": "󰋊 {percentage_used}%",
-        "path": "/home/tof/STOCK1",
-        "tooltip": true,
-        "tooltip-format": "HDD - {used} used out of {total} on {path} ({percentage_used}%)",
-        "on-click": "kitty --start-as=fullscreen --title xplr sh -c 'xplr'"
+    "clock": {
+        "interval": 1,
+        "locale": "C", 
+        "format": "  {:%I:%M %p}",
+        "format-alt": " {:%a,%b %d}" // Icon: calendar-alt
+    },
+    "cpu": { 
+"format": "<span foreground='#a6da95'> </span>&#8239; {usage}%",
+"tooltip": false, "on-click": 
+"kitty -e 'btop'"
+
     },
     "memory": {
         "interval": 30,
-        "format": " {}%",
+        "format": " {used:0.2f}GB",
         "max-length": 10,
+        "tooltip": false,
+        "warning": 70,
+        "critical": 90
+    },
+    "disk": {
+        "interval": 30,
+        "format": " 󰋊-Root {percentage_used}%",
+        "path": "/",
         "tooltip": true,
-        "tooltip-format": "Memory - {used:0.1f}GB used",
-        "on-click": "kitty --start-as=fullscreen --title btop sh -c 'btop'"
+        "tooltip-format": "HDD - {used} used out of {total} on {path} ({percentage_used}%)",
     },
-    "custom/updates": {
-        "format": "{}",
-        "exec": "~/.config/waybar/scripts/update-sys",
-        "on-click": "~/.config/waybar/scripts/update-sys update",
-        "interval": 300,
-        "tooltip": true
-
+     "disk#2": {
+        "interval": 30,
+        "format": " 󰋊-Stock {percentage_used}%",
+        "path": "/home/tof/STOCK1",
+        "tooltip": true,
+        "tooltip-format": "HDD - {used} used out of {total} on {path} ({percentage_used}%)",
     },
-
-    "hyprland/workspaces": {
-		"disable-scroll": true,
-        "on-click": "activate",
-        "all-outputs": true,
-        "active-only": false,
-        "persistent-workspaces": {
-            "1": [],
-            "2": [],
-            "3": [],
-            "4": [],
-            "5": [],
-            "6": [],
-            "7": [],
-            "8": [],
-            "9": [],
-        },
+    "wlr/taskbar": {
         "format": "{icon}",
-        "format-icons": {
-            "active": "<span font='12' color='#00ff00'>󰮯</span>",
-            "empty": "<span font='12'></span>",
-            "persistent": "<span font='12'>󰊠</span>",
+        "all-outputs": true,
+        "icon-size": 14,
+        "icon-theme": "candy-icons",
+        "tooltip-format": "{title}",
+        "on-click": "activate",
+        "on-click-middle": "close",
+        "app_ids-mapping": {
+        "firefoxdeveloperedition": "firefox-developer-edition"
+    },
+    "rewrite": {
+        "Firefox Web Browser": "Firefox",
+        "Foot Server": "Terminal"
+    }
+    
+    },
+ 
+
+"network": {
+  "interface": "enp7s0",
+  "interval": 2,
+  "format": "󰈀 {ifname} {ipaddr}",
+  "format-ethernet": "󰈀 {ifname} {ipaddr} 󰄺 {bandwidthUpBits}bps | 󰄾 {bandwidthDownBits}bps",
+  "format-wifi": " {essid} {ipaddr} 󰄺 {bandwidthUpBits}bps | 󰄾 {bandwidthDownBits}bps",
+  "format-disconnected": "󰖪 déconnecté",
+  "tooltip-format": "{ifname} via {gwaddr}\n󰆨 IP : {ipaddr}/{cidr}\n󰄺 UP : {bandwidthUpBits}bps\n󰄾 DOWN : {bandwidthDownBits}bps",
+  "on-click": "",
+  "max-length": 50
+
+
+
+
 },
-
-    },
-   
-
-
-	"clock": {
-        "interval": 1,
-        "format": "{:%I:%M %p}",
-        "format-alt": "{:%r 󰃭 %a, %d %b %Y}",
-        "rotate": 0,
-
-    },
     "pulseaudio": {
         "format": "{icon} {volume}%",
         "format-muted": "",
@@ -121,48 +173,6 @@
         "438u": "pamixer -i 5",
         "439u": "pamixer -d 5"
         }
-},
-
-     "custom/network_traffic": {
-             "exec": "~/.config/waybar/scripts/network_traffic.sh enp7s0",
-             "return-type": "json",
-             "format": "{}",    // optional
-
-},
-
-    "custom/media": {
-        "format": "{icon} {}",
-        "return-type": "json",
-        "max-length": 100,
-        "format-icons": {
-            "spotify": "",
-            "default": "🎜"
-        },
-        "escape": true,
-        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
-        // "exec": "$HOME/.config/waybar/mediaplayer.py --player audacious 2> /dev/null" // Filter player based on name
-
-},
-
-
-"wlr/taskbar": {
-    "format": "{icon}",
-    "all-outputs": true,
-    "icon-size": 14,
-    "icon-theme": "candy-icons",
-    "tooltip-format": "{title}",
-    "on-click": "activate",
-    "on-click-middle": "close",
-    "app_ids-mapping": {
-      "firefoxdeveloperedition": "firefox-developer-edition"
     },
-    "rewrite": {
-      "Firefox Web Browser": "Firefox",
-      "Foot Server": "Terminal"
-    }
-  },
-     "custom/cava": {
-             "exec": "~/.config/waybar/scripts/executable_Cava-internal.sh",
-			}
-},
-
+    
+}

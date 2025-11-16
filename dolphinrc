@@ -1,0 +1,54 @@
+MenuBar=Disabled
+
+[Baloo KEditCommentDialog]
+2560x1440 screen: Window-Maximized=true
+
+[CompactMode]
+IconSize=64
+
+[ContextMenu]
+ShowCopyMoveMenu=true
+
+[DetailsMode]
+IconSize=48
+
+[General]
+EditableUrl=true
+GlobalViewProps=false
+LockPanels=false
+RememberOpenedTabs=false
+ShowFullPath=true
+ShowFullPathInTitlebar=true
+ShowStatusBar=FullWidth
+ShowToolTips=true
+ShowZoomSlider=true
+Version=202
+ViewPropsTimestamp=2025,10,8,21,40,38.465
+
+[IconsMode]
+IconSize=144
+PreviewSize=144
+UseSystemFont=false
+ViewFont=Hack,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[InformationPanel]
+dateFormat=ShortFormat
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=48
+
+[MainWindow]
+MenuBar=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+IconSize=32
+
+[PlacesPanel]
+IconSize=48
+
+[PreviewSettings]
+Plugins=appimagethumbnail,glycin-heif,comicbookthumbnail,kraorathumbnail,opendocumentthumbnail,directorythumbnail,ebookthumbnail,windowsexethumbnail,ffmpegthumbnailer,audiothumbnail,cursorthumbnail,textthumbnail,ffmpegthumbs,djvuthumbnail,heif,glycin-image-rs,glycin-svg,webp-pixbuf,imagethumbnail,exrthumbnail,jpegthumbnail,windowsimagethumbnail,svgthumbnail,glycin-jxl
+
+[Toolbar mainToolBar]
+IconSize=32

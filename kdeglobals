@@ -1,0 +1,19 @@
+[Icons]
+Theme=Azure-Dark-Icons
+
+[KDE]
+ShowDeleteCommand=false
+
+[KShortcutsDialog Settings]
+Dialog Size=694,480
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
+
+[General]
+TerminalApplication=kitty
+TerminalService=kitty.desktop
+
+[Colors:View]
+BackgroundNormal=#11111111

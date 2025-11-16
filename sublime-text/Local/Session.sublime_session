@@ -1,15 +1,48 @@
 {
 	"file_history":
 	[
+		"/home/tof/Documents/Tests/wf-recorder.txt",
+		"/home/tof/STOCK1/Download-Torrent/Les.Disparues.de.la.gare.S01.FRENCH.1080p.WEB.H264-SUPPLY/Les.Disparues.de.la.gare.S01.FRENCH.1080p.WEB.H264-SUPPLY.nfo",
+		"/home/tof/.config/audacious/config",
+		"/home/tof/.config/menus/applications.menu",
+		"/home/tof/.config/hypr/scripts/xdg-portal-hyprland",
+		"/home/tof/.config/hypr/scripts/xdg-portal-hyprland.save",
+		"/home/tof/.config/hypr/scripts/xdg.save.txt",
+		"/home/tof/.config/hypr/GEMINI.md",
+		"/home/tof/Documents/.MDP/bank.txt",
+		"/home/tof/Documents/.MDP/NEW-Ultimate-list.txt",
+		"/home/tof/.boxes-unknown.draft.txt",
+		"/home/tof/DATAX2/Documents/Documents/.MDP/bank2.txt",
+		"/home/tof/Documents/SAV-arch-nas.sh",
+		"/home/tof/Drive/PERSO/Codes/Nouveau Document texte.txt",
+		"/home/tof/aide.sh",
+		"/home/tof/STOCK1/BOULOT-SAV/Documents/7_SERVICES GENERAUX/Perso/ecole.txt",
+		"/home/tof/STOCK1/BOULOT-SAV/Documents/7_SERVICES GENERAUX/Perso/pourimpots.txt",
+		"/home/tof/Documents/Arch-linux-memo/cleaning-archlinux.txt",
+		"/run/user/1000/gvfs/sftp:host=192.168.1.181/linuxrc",
+		"/home/tof/Documents/Arch-linux-memo/debug-archlinux.txt",
+		"/home/tof/Documents/SRV/THM.ovpn",
+		"/home/tof/Documents/Arch-linux-memo/clean-arch.sh",
+		"/home/tof/SAV-arch-nas.sh",
+		"/home/tof/.config/poshthemes/1_shell.omp.json",
+		"/home/tof/Documents/MDP-A-FAIRE/NEW-Ultimate-list.txt",
+		"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume0/usr/etc/ssh/ssh_config",
+		"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume0/usr/etc/ssh/sshd_config",
+		"/home/tof/Downloads/authorized_keys",
+		"/home/tof/Dotfiles/README-perplex.txt",
+		"/home/tof/.config/waybar2/config",
+		"/home/tof/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+		"/home/tof/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+		"/home/tof/DATAX1/torrents/Series/Anaon.S01.FRENCH.1080p.WEB.H264-FW/Anaon.S01.FRENCH.1080p.WEB.H264-FW.nfo",
+		"/run/user/1000/gvfs/sftp:host=192.168.1.228/home/kali/Documents/Easy-as-Pie/memo.txt",
+		"/home/tof/.config/yazi/yazi-default.toml",
 		"/etc/pacman.conf",
 		"/home/tof/STOCK1/SaV/Documents/MDP-A-FAIRE/NEW-Ultimate-list.txt",
 		"/home/tof/Musique/matmahta",
 		"/home/tof/.config/fastfetch/config.jsonc",
 		"/home/tof/Documents/flood-save.sh",
 		"/home/tof/Documents/sequence-video.txt",
-		"/home/tof/Documents/Tests/wf-recorder.txt",
 		"/home/tof/STOCK1/Download-Torrent/The Legend of Zelda - Echoes of Wisdom v1.0.1 + Ryujinx-Suyu Switch Emulators/The Legend of Zelda - Echoes of Wisdom v1.0.1 + Ryujinx-Suyu Switch Emulators/_How to Install.txt",
-		"/home/tof/.config/waybar2/config",
 		"/home/tof/.config/waybar2/style.css",
 		"/home/tof/.config/waybar/config",
 		"/home/tof/.config/hypr-conf1/look.conf",
@@ -42,7 +75,6 @@
 		"/home/tof/STOCK1/Download-Torrent/[ Torrent911.rs ] Lady.in.the.Lake.S01E01.MULTi.1080p.WEB.H264-FW/Lady.in.the.Lake.S01E01.MULTi.1080p.WEB.H264-FW.nfo",
 		"/home/tof/Drive/Drive-google/voyage.memo.txt",
 		"/home/tof/.config/Ascii/felix",
-		"/home/tof/.config/audacious/config",
 		"/home/tof/STOCK1/Download-Torrent/CYGNI.All.Guns.Blazing-RUNE/_INSTALL TUTORIAL.txt",
 		"/home/tof/STOCK1/Download-Torrent/CYGNI.All.Guns.Blazing-RUNE/README.txt",
 		"/home/tof/.config/caja/scripts/Terminal-Here",
@@ -54,13 +86,11 @@
 		"/home/tof/Documents/CHEAT....txt",
 		"/srv/http/index.html",
 		"/home/tof/Downloads/levelx00.py",
-		"/home/tof/Documents/SAV-arch-nas.sh",
 		"/home/tof/Documents/cheat.sh",
 		"/home/tof/Documents/Srv/cheat.sh",
 		"/srv/http/cheat.sh",
 		"/home/tof/Documents/Web-test/hacker-theme/Cheat.html",
 		"/home/tof/Documents/CHEAT-SHEET/index.html",
-		"/home/tof/Documents/Arch-linux-memo/debug-archlinux.txt",
 		"/home/tof/Documents/Arch-linux-memo/fancontrol.txt",
 		"/home/tof/Documents/Scripts/scan-rezo-ping",
 		"/home/tof/Documents/Scripts/cpu-mem-etc-info.sh",
@@ -77,7 +107,6 @@
 		"/home/tof/Documents/Sav-Dot-files.sh",
 		"/home/tof/Dotfiles/hypr/hyprland.conf",
 		"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/Codes/NEW-Ultimate-list.txt",
-		"/home/tof/Documents/MDP-A-FAIRE/NEW-Ultimate-list.txt",
 		"/home/tof/Drive/Drive-google/PERSO/Codes/wifi.txt",
 		"/home/tof/Drive/Drive-google/PERSO/Codes/one.txt",
 		"/home/tof/Drive/Drive-google/PERSO/Codes/Nouveau document texte (2).txt",
@@ -99,32 +128,24 @@
 		"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/new.txt",
 		"/home/tof/Documents/help-alias",
 		"/home/tof/Documents/subl-md-git",
-		"/home/tof/Documents/index.html",
-		"/home/tof/Documents/indexxxxx.html",
-		"/home/tof/Downloads/phpinfolfi.py",
-		"/home/tof/Downloads/sol-l148.txt",
-		"/home/tof/Downloads/89.txt",
-		"/home/tof/Documents/Scripts/afficher-message-ecrans.txt",
-		"/home/tof/Documents/Scripts/mkcd",
-		"/home/tof/Dotfiles/.zshrc",
-		"/home/tof/Downloads/writeup_148.txt"
+		"/home/tof/Documents/index.html"
 	],
 	"folder_history":
 	[
 	],
-	"last_version": 4192,
-	"last_window_id": 2,
+	"last_version": 4200,
+	"last_window_id": 4,
 	"log_indexing": false,
-	"next_update_check": 1738696263,
+	"next_update_check": 1762962556,
 	"settings":
 	{
 		"new_window_full_screen": false,
-		"new_window_height": 1440.0,
+		"new_window_height": 720.0,
 		"new_window_maximized": true,
 		"new_window_position":
 		[
 			0.0,
-			28.0
+			27.0
 		],
 		"new_window_settings":
 		{
@@ -165,6 +186,31 @@
 			},
 			"file_history":
 			[
+				"/home/tof/Documents/save-fstbab.txt",
+				"/home/tof/.boxes-unknown.draft.txt",
+				"/home/tof/Documents/.MDP/NEW-Ultimate-list.txt",
+				"/home/tof/DATAX2/Documents/Documents/.MDP/bank2.txt",
+				"/home/tof/Documents/SAV-arch-nas.sh",
+				"/home/tof/Drive/PERSO/Codes/Nouveau Document texte.txt",
+				"/home/tof/Documents/Tests/wf-recorder.txt",
+				"/home/tof/aide.sh",
+				"/home/tof/STOCK1/BOULOT-SAV/Documents/7_SERVICES GENERAUX/Perso/ecole.txt",
+				"/home/tof/STOCK1/BOULOT-SAV/Documents/7_SERVICES GENERAUX/Perso/pourimpots.txt",
+				"/home/tof/Documents/Arch-linux-memo/cleaning-archlinux.txt",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/linuxrc",
+				"/home/tof/Documents/Arch-linux-memo/debug-archlinux.txt",
+				"/home/tof/Documents/SRV/THM.ovpn",
+				"/home/tof/Documents/Arch-linux-memo/clean-arch.sh",
+				"/home/tof/SAV-arch-nas.sh",
+				"/home/tof/.config/poshthemes/1_shell.omp.json",
+				"/home/tof/Documents/MDP-A-FAIRE/NEW-Ultimate-list.txt",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume0/usr/etc/ssh/ssh_config",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume0/usr/etc/ssh/sshd_config",
+				"/home/tof/Downloads/authorized_keys",
+				"/home/tof/Dotfiles/README-perplex.txt",
+				"/home/tof/.config/waybar2/config",
+				"/home/tof/DATAX1/torrents/Series/Anaon.S01.FRENCH.1080p.WEB.H264-FW/Anaon.S01.FRENCH.1080p.WEB.H264-FW.nfo",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.228/home/kali/Documents/Easy-as-Pie/memo.txt",
 				"/home/tof/.config/yazi/yazi-default.toml",
 				"/etc/pacman.conf",
 				"/home/tof/STOCK1/SaV/Documents/MDP-A-FAIRE/NEW-Ultimate-list.txt",
@@ -172,9 +218,7 @@
 				"/home/tof/.config/fastfetch/config.jsonc",
 				"/home/tof/Documents/flood-save.sh",
 				"/home/tof/Documents/sequence-video.txt",
-				"/home/tof/Documents/Tests/wf-recorder.txt",
 				"/home/tof/STOCK1/Download-Torrent/The Legend of Zelda - Echoes of Wisdom v1.0.1 + Ryujinx-Suyu Switch Emulators/The Legend of Zelda - Echoes of Wisdom v1.0.1 + Ryujinx-Suyu Switch Emulators/_How to Install.txt",
-				"/home/tof/.config/waybar2/config",
 				"/home/tof/.config/waybar2/style.css",
 				"/home/tof/.config/waybar/config",
 				"/home/tof/.config/hypr-conf1/look.conf",
@@ -217,13 +261,11 @@
 				"/home/tof/Documents/CHEAT....txt",
 				"/srv/http/index.html",
 				"/home/tof/Downloads/levelx00.py",
-				"/home/tof/Documents/SAV-arch-nas.sh",
 				"/home/tof/Documents/cheat.sh",
 				"/home/tof/Documents/Srv/cheat.sh",
 				"/srv/http/cheat.sh",
 				"/home/tof/Documents/Web-test/hacker-theme/Cheat.html",
 				"/home/tof/Documents/CHEAT-SHEET/index.html",
-				"/home/tof/Documents/Arch-linux-memo/debug-archlinux.txt",
 				"/home/tof/Documents/Arch-linux-memo/fancontrol.txt",
 				"/home/tof/Documents/Scripts/scan-rezo-ping",
 				"/home/tof/Documents/Scripts/cpu-mem-etc-info.sh",
@@ -240,7 +282,6 @@
 				"/home/tof/Documents/Sav-Dot-files.sh",
 				"/home/tof/Dotfiles/hypr/hyprland.conf",
 				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/Codes/NEW-Ultimate-list.txt",
-				"/home/tof/Documents/MDP-A-FAIRE/NEW-Ultimate-list.txt",
 				"/home/tof/Drive/Drive-google/PERSO/Codes/wifi.txt",
 				"/home/tof/Drive/Drive-google/PERSO/Codes/one.txt",
 				"/home/tof/Drive/Drive-google/PERSO/Codes/Nouveau document texte (2).txt",
@@ -274,7 +315,7 @@
 			],
 			"find":
 			{
-				"height": 28.0
+				"height": 34.0
 			},
 			"find_in_files":
 			{
@@ -307,7 +348,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 28.0
+				"height": 34.0
 			},
 			"input":
 			{
@@ -316,12 +357,15 @@
 			"menu_visible": true,
 			"output.find_results":
 			{
-				"height": 0.0
+				"height": 0.0,
+				"history":
+				[
+				]
 			},
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 52.0
+				"height": 64.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -375,70 +419,76 @@
 			"buffers":
 			[
 				{
-					"file": "/home/tof/.config/yazi/yazi-default.toml",
+					"file": "/home/tof/.config/session/dolphin_dolphin_dolphin",
 					"settings":
 					{
-						"buffer_size": 6542,
+						"buffer_size": 530,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/tof/.config/Kvantum/Dream-Violet-Dark-Kvantum/Dream-Violet-Dark-Kvantum.kvconfig",
+					"settings":
+					{
+						"buffer_size": 10336,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					},
 					"undo_stack":
 					[
 						[
-							10,
 							1,
-							"left_delete",
+							1,
+							"revert",
 							null,
-							"AQAAABYBAAAAAAAAFgEAAAAAAAABAAAANA",
-							"AQAAAAAAAAABAAAAFwEAAAAAAAAXAQAAAAAAAAAAAAAAAPC/"
+							"AgAAAAAAAAAAAAAAAAAAAAAAAABeKAAAWyVHZW5lcmFsXQphdXRob3I9bDRrMQpjb21tZW50PURyZWFtLVZpb2xldC1EYXJrLUt2YW50dW0KeDExZHJhZz1hbGwKYWx0X21uZW1vbmljPXRydWUKbGVmdF90YWJzPWZhbHNlCmF0dGFjaF9hY3RpdmVfdGFiPXRydWUKbWlycm9yX2RvY190YWJzPWZhbHNlCmVtYmVkZGVkX3RhYnM9dHJ1ZQpncm91cF90b29sYmFyX2J1dHRvbnM9ZmFsc2UKYWN0aXZlX3RhYl9vdmVybGFwPTEwCnRvb2xiYXJfaXRlbV9zcGFjaW5nPTIKdG9vbGJhcl9pbnRlcmlvcl9zcGFjaW5nPTIKc3ByZWFkX3Byb2dyZXNzYmFyPXRydWUKY29tcG9zaXRlPXRydWUKbWVudV9zaGFkb3dfZGVwdGg9MTAKc3ByZWFkX21lbnVpdGVtcz1mYWxzZQp0b29sdGlwX3NoYWRvd19kZXB0aD00CnNwbGl0dGVyX3dpZHRoPTgKc2Nyb2xsX3dpZHRoPTgKc2Nyb2xsX2Fycm93cz10cnVlCnNjcm9sbF9taW5fZXh0ZW50PTUwCnNsaWRlcl93aWR0aD0yCnNsaWRlcl9oYW5kbGVfd2lkdGg9MTgKc2xpZGVyX2hhbmRsZV9sZW5ndGg9MTgKdGlja2xlc3Nfc2xpZGVyX2hhbmRsZV9zaXplPTAKY2VudGVyX3Rvb2xiYXJfaGFuZGxlPXRydWUKY2hlY2tfc2l6ZT0xNgp0ZXh0bGVzc19wcm9ncmVzc2Jhcj1mYWxzZQpwcm9ncmVzc2Jhcl90aGlja25lc3M9MgptZW51YmFyX21vdXNlX3RyYWNraW5nPXRydWUKdG9vbGJ1dHRvbl9zdHlsZT0yCmRvdWJsZV9jbGljaz1mYWxzZQp0cmFuc2x1Y2VudF93aW5kb3dzPXRydWUKYmx1cnJpbmc9dHJ1ZQpwb3B1cF9ibHVycmluZz10cnVlCnZlcnRpY2FsX3NwaW5faW5kaWNhdG9ycz1mYWxzZQpzcGluX2J1dHRvbl93aWR0aD0yNApmaWxsX3J1YmJlcmJhbmQ9ZmFsc2UKbWVyZ2VfbWVudWJhcl93aXRoX3Rvb2xiYXI9dHJ1ZQpzbWFsbF9pY29uX3NpemU9MTYKbGFyZ2VfaWNvbl9zaXplPTMyCmJ1dHRvbl9pY29uX3NpemU9MTYKdG9vbGJhcl9pY29uX3NpemU9MTYKY29tYm9fYXNfbGluZWVkaXQ9dHJ1ZQphbmltYXRlX3N0YXRlcz10cnVlCmJ1dHRvbl9jb250ZW50c19zaGlmdD1mYWxzZQpjb21ib19tZW51PXRydWUKaGlkZV9jb21ib19jaGVja2JveGVzPWZhbHNlCmNvbWJvX2ZvY3VzX3JlY3Q9ZmFsc2UKZ3JvdXBib3hfdG9wX2xhYmVsPXRydWUKaW5saW5lX3NwaW5faW5kaWNhdG9ycz10cnVlCmpvaW5lZF9pbmFjdGl2ZV90YWJzPWZhbHNlCmxheW91dF9zcGFjaW5nPTQKbGF5b3V0X21hcmdpbj00CmNoZWNrX3NpemU9MTYKdGV4dGxlc3NfcHJvZ3Jlc3NiYXI9ZmFsc2UKcHJvZ3Jlc3NiYXJfdGhpY2tuZXNzPTIKbWVudWJhcl9tb3VzZV90cmFja2luZz10cnVlCnNjcm9sbGJhcl9pbl92aWV3PXRydWUKdHJhbnNpZW50X3Njcm9sbGJhcj10cnVlCnRyYW5zaWVudF9ncm9vdmU9dHJ1ZQpzdWJtZW51X292ZXJsYXA9MAp0b29sdGlwX2RlbGF5PTEKdHJlZV9icmFuY2hfbGluZT10cnVlCnRvb2xidXR0b25fc3R5bGU9Mgpkb3VibGVfY2xpY2s9ZmFsc2UKdHJhbnNsdWNlbnRfd2luZG93cz10cnVlCm5vX3dpbmRvd19wYXR0ZXJuPWZhbHNlCm9wYXF1ZT1rYWZmZWluZSxrbXBsYXllcixzdWJ0aXRsZWNvbXBvc2VyLGtkZW5saXZlLHZsYyxzbXBsYXllcixzbXBsYXllcjIsYXZpZGVtdXgsYXZpZGVtdXgyX3F0NCxhdmlkZW11eDNfcXQ0LGF2aWRlbXV4M19xdDUsYXZpZGVtdXgzX3F0NixrYW1vc28sUXRDcmVhdG9yLFZpcnR1YWxCb3gsdHJvaml0YSxkcmFnb24sZGlnaWthbQpyZWR1Y2Vfd2luZG93X29wYWNpdHk9NTUKcmVzcGVjdF9ERT10cnVlCnNjcm9sbGFibGVfbWVudT10cnVlCnN1Ym1lbnVfZGVsYXk9MjUwCm5vX2luYWN0aXZlbmVzcz1mYWxzZQpyZWR1Y2VfbWVudV9vcGFjaXR5PTU1Cm1lbnVfYmx1cl9yYWRpdXM9NgpjbGlja19iZWhhdmlvcj0wCmNvbnRyYXN0PTEuMDAKZGlhbG9nX2J1dHRvbl9sYXlvdXQ9MAppbnRlbnNpdHk9MS4wMApzYXR1cmF0aW9uPTEuMDAKc2hhZG93bGVzc19wb3B1cD1mYWxzZQpkcmFnX2Zyb21fYnV0dG9ucz1mYWxzZQpoaWRlX2NvbWJvX2NoZWNrYm94ZXM9ZmFsc2UKdG9vbHRpcF9ibHVyX3JhZGl1cz0wCgpbR2VuZXJhbENvbG9yc10Kd2luZG93LmNvbG9yPSMxZTFlMmUKYmFzZS5jb2xvcj0jMTkxOTI2CmFsdC5iYXNlLmNvbG9yPSMxZTFlMmUKYnV0dG9uLmNvbG9yPSMxZTFlMmUKbGlnaHQuY29sb3I9Izg0NjdhOAptaWQubGlnaHQuY29sb3I9IzFlMWUyZQpkYXJrLmNvbG9yPWJsYWNrCm1pZC5jb2xvcj0jMWUxZTJlCmhpZ2hsaWdodC5jb2xvcj0jODQ2N2E4CmluYWN0aXZlLmhpZ2hsaWdodC5jb2xvcj0jMmUyZTQ2CnRleHQuY29sb3I9I2NkZDZmNAp3aW5kb3cudGV4dC5jb2xvcj0jY2RkNmY0CmJ1dHRvbi50ZXh0LmNvbG9yPSNjZGQ2ZjQKZGlzYWJsZWQudGV4dC5jb2xvcj0jYWJhZmI4CnRvb2x0aXAudGV4dC5jb2xvcj0jY2RkNmY0CmhpZ2hsaWdodC50ZXh0LmNvbG9yPSNjZGQ2ZjQKbGluay5jb2xvcj0jODQ2N2E4CmxpbmsudmlzaXRlZC5jb2xvcj0jODQ2N2E4CnByb2dyZXNzLmluZGljYXRvci50ZXh0LmNvbG9yPSNjZGQ2ZjQKCltIYWNrc10KdHJhbnNwYXJlbnRfa3RpdGxlX2xhYmVsPXRydWUKdHJhbnNwYXJlbnRfZG9scGhpbl92aWV3PWZhbHNlCnRyYW5zcGFyZW50X3BjbWFuZm1fc2lkZXBhbmU9ZmFsc2UKYmx1cl90cmFuc2x1Y2VudD10cnVlCnRyYW5zcGFyZW50X21lbnV0aXRsZT10cnVlCnJlc3BlY3RfZGFya25lc3M9dHJ1ZQprY2FwYWNpdHliYXJfYXNfcHJvZ3Jlc3NiYXI9dHJ1ZQpmb3JjZV9zaXplX2dyaXA9dHJ1ZQppY29ubGVzc19wdXNoYnV0dG9uPXRydWUKaWNvbmxlc3NfbWVudT1mYWxzZQpkaXNhYmxlZF9pY29uX29wYWNpdHk9MTAwCmx4cXRtYWlubWVudV9pY29uc2l6ZT0wCm1pZGRsZV9jbGlja19zY3JvbGw9ZmFsc2UKbm9fc2VsZWN0aW9uX3RpbnQ9dHJ1ZQpub3JtYWxfZGVmYXVsdF9wdXNoYnV0dG9uPWZhbHNlCnNpbmdsZV90b3BfdG9vbGJhcj10cnVlCnRpbnRfb25fbW91c2VvdmVyPTAKdHJhbnNwYXJlbnRfcGNtYW5mbV92aWV3PWZhbHNlCm9wYXF1ZV9jb2xvcnM9ZmFsc2UKYmx1cl9vbmx5X2FjdGl2ZV93aW5kb3c9ZmFsc2UKY2VudGVyZWRfZm9ybXM9ZmFsc2UKa2luZXRpY19zY3JvbGxpbmc9ZmFsc2UKbm9uaW50ZWdlcl90cmFuc2x1Y2VuY3k9ZmFsc2UKc3R5bGVfdmVydGljYWxfdG9vbGJhcnM9ZmFsc2UKCltJdGVtVmlld10KaW5oZXJpdHM9UGFuZWxCdXR0b25Db21tYW5kCnRleHQubWFyZ2luPTAKZnJhbWUuZWxlbWVudD1pdGVtdmlldwppbnRlcmlvci5lbGVtZW50PWl0ZW12aWV3CmZyYW1lLnRvcD00CmZyYW1lLmJvdHRvbT00CmZyYW1lLmxlZnQ9NApmcmFtZS5yaWdodD00CnRleHQubWFyZ2luLnRvcD00CnRleHQubWFyZ2luLmJvdHRvbT00CnRleHQubWFyZ2luLmxlZnQ9NAp0ZXh0Lm1hcmdpbi5yaWdodD00CnRleHQubm9ybWFsLmNvbG9yPSNjZGQ2ZjQKdGV4dC5mb2N1cy5jb2xvcj0jY2RkNmY0CnRleHQucHJlc3MuY29sb3I9I2NkZDZmNAp0ZXh0LnRvZ2dsZS5jb2xvcj0jY2RkNmY0Cm1pbl93aWR0aD0rMC4zZm9udAptaW5faGVpZ2h0PSswLjNmb250CmZyYW1lLmV4cGFuc2lvbj0wCgpbUmFkaW9CdXR0b25dCmluaGVyaXRzPVBhbmVsQnV0dG9uQ29tbWFuZApmcmFtZT1mYWxzZQppbnRlcmlvci5lbGVtZW50PXJhZGlvCgpbQ2hlY2tCb3hdCmluaGVyaXRzPVBhbmVsQnV0dG9uQ29tbWFuZApmcmFtZT1mYWxzZQppbnRlcmlvci5lbGVtZW50PWNoZWNrYm94CgpbVHJlZUV4cGFuZGVyXQppbmRpY2F0b3IuZWxlbWVudD10cmVlCmluZGljYXRvci5zaXplPTEwCgpbVG9vbFRpcF0KaW5oZXJpdHM9R2VuZXJpY0ZyYW1lCmZyYW1lLnRvcD00CmZyYW1lLmJvdHRvbT00CmZyYW1lLmxlZnQ9NApmcmFtZS5yaWdodD00CmludGVyaW9yPXRydWUKdGV4dC5zaGFkb3c9MAp0ZXh0Lm1hcmdpbj0wCmludGVyaW9yLmVsZW1lbnQ9dG9vbHRpcApmcmFtZS5lbGVtZW50PXRvb2x0aXAKZnJhbWUuZXhwYW5zaW9uPTAKCltQYW5lbEJ1dHRvbkNvbW1hbmRdCmluaGVyaXRzPVBhbmVsQnV0dG9uQ29tbWFuZAppbnRlcmlvci5lbGVtZW50PWJ1dHRvbgpmcmFtZS5lbGVtZW50PWJ1dHRvbgp0ZXh0Lm5vcm1hbC5jb2xvcj0jY2RkNmY0CnRleHQuZm9jdXMuY29sb3I9I2NkZDZmNAp0ZXh0LnByZXNzLmNvbG9yPSNjZGQ2ZjQKdGV4dC50b2dnbGUuY29sb3I9I2FiYWJlMApmcmFtZT10cnVlCmZyYW1lLmVsZW1lbnQ9YnV0dG9uCmZyYW1lLnRvcD00CmZyYW1lLmJvdHRvbT00CmZyYW1lLmxlZnQ9NApmcmFtZS5yaWdodD00CmludGVyaW9yPXRydWUKaW5kaWNhdG9yLnNpemU9NgpmcmFtZS5leHBhbnNpb249MTAKdGV4dC5pY29uc3BhY2luZz00CnRleHQubWFyZ2luLnRvcD0yCnRleHQubWFyZ2luLmJvdHRvbT0zCnRleHQubWFyZ2luLmxlZnQ9Mgp0ZXh0Lm1hcmdpbi5yaWdodD0yCgpbUGFuZWxCdXR0b25Ub29sXQppbmhlcml0cz1QYW5lbEJ1dHRvbkNvbW1hbmQKaW50ZXJpb3IuZWxlbWVudD10YnV0dG9uCmZyYW1lPXRydWUKZnJhbWUuZWxlbWVudD10YnV0dG9uCmZyYW1lLnRvcD00CmZyYW1lLmJvdHRvbT00CmZyYW1lLmxlZnQ9NApmcmFtZS5yaWdodD00CnRleHQubm9ybWFsLmNvbG9yPSNjZGQ2ZjQKdGV4dC5mb2N1cy5jb2xvcj0jY2RkNmY0CnRleHQucHJlc3MuY29sb3I9I2NkZDZmNAp0ZXh0LnRvZ2dsZS5jb2xvcj0jY2RkNmY0CnRleHQubm9ybWFsLmluYWN0aXZlLmNvbG9yPSNjZGQ2ZjQ3NAp0ZXh0LnRvZ2dsZS5pbmFjdGl2ZS5jb2xvcj0jZmZmZmZmNzQKdGV4dC5tYXJnaW4udG9wPTQKdGV4dC5tYXJnaW4uYm90dG9tPTQKdGV4dC5tYXJnaW4ubGVmdD00CnRleHQubWFyZ2luLnJpZ2h0PTQKdGV4dC5ib2xkPWZhbHNlCmluZGljYXRvci5lbGVtZW50PWFycm93CmluZGljYXRvci5zaXplPTgKCltEb2NrVGl0bGVdCmluaGVyaXRzPVBhbmVsQnV0dG9uQ29tbWFuZApmcmFtZT1mYWxzZQppbnRlcmlvcj1mYWxzZQp0ZXh0Lm5vcm1hbC5jb2xvcj0jY2RkNmY0CnRleHQuZm9jdXMuY29sb3I9d2hpdGUKdGV4dC5ib2xkPWZhbHNlCgpbRG9ja10KaW5oZXJpdHM9UGFuZWxCdXR0b25Db21tYW5kCmludGVyaW9yLmVsZW1lbnQ9ZG9jawpmcmFtZS5lbGVtZW50PWRvY2sKZnJhbWUudG9wPTEKZnJhbWUuYm90dG9tPTEKZnJhbWUubGVmdD0xCmZyYW1lLnJpZ2h0PTEKdGV4dC5ub3JtYWwuY29sb3I9I2NkZDZmNAoKW0dyb3VwQm94XQppbmhlcml0cz1QYW5lbEJ1dHRvbkNvbW1hbmQKaW50ZXJpb3IuZWxlbWVudD10YWJmcmFtZQppbnRlcmlvcj10cnVlCmZyYW1lPWZhbHNlCgpbRm9jdXNdCmluaGVyaXRzPVBhbmVsQnV0dG9uQ29tbWFuZApmcmFtZT10cnVlCmZyYW1lLmVsZW1lbnQ9Zm9jdXMKZnJhbWUudG9wPTEKZnJhbWUuYm90dG9tPTEKZnJhbWUubGVmdD0xCmZyYW1lLnJpZ2h0PTEKZnJhbWUucGF0dGVybnNpemU9MjAKCltHZW5lcmljRnJhbWVdCmluaGVyaXRzPVBhbmVsQnV0dG9uQ29tbWFuZApmcmFtZS5lbGVtZW50PWNvbW1vbgpmcmFtZS50b3A9MQpmcmFtZS5ib3R0b209MQpmcmFtZS5sZWZ0PTEKZnJhbWUucmlnaHQ9MQoKW1NsaWRlcl0KaW5oZXJpdHM9UGFuZWxCdXR0b25Db21tYW5kCmludGVyaW9yPXRydWUKZnJhbWUuZWxlbWVudD1zbGlkZXIKaW50ZXJpb3IuZWxlbWVudD1zbGlkZXIKZnJhbWUudG9wPTMKZnJhbWUuYm90dG9tPTMKZnJhbWUubGVmdD0zCmZyYW1lLnJpZ2h0PTMKZm9jdXNGcmFtZT10cnVlCgpbU2xpZGVyQ3Vyc29yXQppbmhlcml0cz1QYW5lbEJ1dHRvbkNvbW1hbmQKaW50ZXJpb3I9dHJ1ZQppbnRlcmlvci5lbGVtZW50PXNsaWRlcmN1cnNvcgpmcmFtZT1mYWxzZQoKW0xpbmVFZGl0XQppbmhlcml0cz1QYW5lbEJ1dHRvbkNvbW1hbmQKZnJhbWUuZWxlbWVudD1saW5lZWRpdAppbnRlcmlvci5lbGVtZW50PWxpbmVlZGl0CgpbSW5kaWNhdG9yU3BpbkJveF0KaW5oZXJpdHM9TGluZUVkaXQKZnJhbWUuZWxlbWVudD1saW5lZWRpdAppbnRlcmlvci5lbGVtZW50PWxpbmVlZGl0CmZyYW1lLnRvcD0wCmZyYW1lLmJvdHRvbT0yCmZyYW1lLmxlZnQ9MgpmcmFtZS5yaWdodD0yCmluZGljYXRvci5zaXplPTgKCltEcm9wRG93bkJ1dHRvbl0KaW5oZXJpdHM9UGFuZWxCdXR0b25Db21tYW5kCmZyYW1lLnRvcD0yCmZyYW1lLmJvdHRvbT0yCmZyYW1lLmxlZnQ9MApmcmFtZS5yaWdodD0xCmluZGljYXRvci5zaXplPTgKCltUb29sYm94VGFiXQppbmhlcml0cz1QYW5lbEJ1dHRvbkNvbW1hbmQKZnJhbWUuZWxlbWVudD10YWJmcmFtZQpmcmFtZS50b3A9NApmcmFtZS5ib3R0b209NApmcmFtZS5sZWZ0PTQKZnJhbWUucmlnaHQ9NAoKW1RhYl0KaW5oZXJpdHM9UGFuZWxCdXR0b25Db21tYW5kCmludGVyaW9yLmVsZW1lbnQ9dGFiCmZyYW1lLnRvcD0yCmZyYW1lLmJvdHRvbT0yCmZyYW1lLmxlZnQ9MgpmcmFtZS5yaWdodD0yCnRleHQubWFyZ2luLmxlZnQ9OAp0ZXh0Lm1hcmdpbi5yaWdodD04CnRleHQubWFyZ2luLnRvcD0yCnRleHQubWFyZ2luLmJvdHRvbT0yCmZyYW1lLmVsZW1lbnQ9dGFiCmluZGljYXRvci5lbGVtZW50PXRhYgpmcmFtZS5leHBhbnNpb249MAppbmRpY2F0b3Iuc2l6ZT0xOAp0ZXh0LnNoYWRvdz1mYWxzZQoKW1RhYkJhckZyYW1lXQppbmhlcml0cz1HZW5lcmljRnJhbWUKZnJhbWU9dHJ1ZQpmcmFtZS5lbGVtZW50PXRhYkJhckZyYW1lCmludGVyaW9yPWZhbHNlCmZyYW1lLnRvcD00CmZyYW1lLmJvdHRvbT00CmZyYW1lLmxlZnQ9NApmcmFtZS5yaWdodD00CgpbVGFiRnJhbWVdCmluaGVyaXRzPVBhbmVsQnV0dG9uQ29tbWFuZApmcmFtZS5lbGVtZW50PXRhYmZyYW1lCmludGVyaW9yLmVsZW1lbnQ9dGFiZnJhbWUKZnJhbWUudG9wPTQKZnJhbWUuYm90dG9tPTQKZnJhbWUubGVmdD00CmZyYW1lLnJpZ2h0PTQKCltIZWFkZXJTZWN0aW9uXQppbmhlcml0cz1QYW5lbEJ1dHRvbkNvbW1hbmQKaW50ZXJpb3IuZWxlbWVudD1oZWFkZXIKZnJhbWUuZWxlbWVudD1oZWFkZXIKZnJhbWUudG9wPTAKZnJhbWUuYm90dG9tPTEKZnJhbWUubGVmdD0xCmZyYW1lLnJpZ2h0PTEKZnJhbWUuZXhwYW5zaW9uPTAKdGV4dC5ub3JtYWwuY29sb3I9I2NkZDZmNAp0ZXh0LmZvY3VzLmNvbG9yPSNjZGQ2ZjQKdGV4dC5wcmVzcy5jb2xvcj0jY2RkNmY0CnRleHQudG9nZ2xlLmNvbG9yPSNjZGQ2ZjQKaW5kaWNhdG9yLmVsZW1lbnQ9aGFycm93CgpbU2l6ZUdyaXBdCmluaGVyaXRzPVBhbmVsQnV0dG9uQ29tbWFuZApmcmFtZT1mYWxzZQppbnRlcmlvcj1mYWxzZQppbmRpY2F0b3IuZWxlbWVudD1yZXNpemUtZ3JpcAppbmRpY2F0b3Iuc2l6ZT0wCgpbVG9vbGJhcl0KaW5oZXJpdHM9UGFuZWxCdXR0b25Db21tYW5kCmludGVyaW9yLmVsZW1lbnQ9bWVudWJhcgpmcmFtZS5lbGVtZW50PW1lbnViYXIKZnJhbWU9dHJ1ZQpmcmFtZS50b3A9NApmcmFtZS5ib3R0b209NApmcmFtZS5sZWZ0PTQKZnJhbWUucmlnaHQ9NAp0ZXh0Lm5vcm1hbC5jb2xvcj0jY2RkNmY0CnRleHQuZm9jdXMuY29sb3I9I2NkZDZmNAp0ZXh0LnByZXNzLmNvbG9yPSNjZGQ2ZjQKdGV4dC50b2dnbGUuY29sb3I9I2NkZDZmNAp0ZXh0LmJvbGQ9ZmFsc2UKCltNZW51QmFyXQppbmhlcml0cz1QYW5lbEJ1dHRvbkNvbW1hbmQKZnJhbWUuZWxlbWVudD1tZW51YmFyCmludGVyaW9yLmVsZW1lbnQ9bWVudWJhcgpmcmFtZS5ib3R0b209MAp0ZXh0Lm5vcm1hbC5jb2xvcj0jY2RkNmY0CmZyYW1lLmV4cGFuc2lvbj0wCnRleHQuYm9sZD1mYWxzZQoKW1Rvb2xiYXJCdXR0b25dCmZyYW1lPXRydWUKZnJhbWUuZWxlbWVudD10YnV0dG9uCmludGVyaW9yLmVsZW1lbnQ9dGJ1dHRvbgpmcmFtZS50b3A9MTYKZnJhbWUuYm90dG9tPTE2CmZyYW1lLmxlZnQ9MTYKZnJhbWUucmlnaHQ9MTYKaW5kaWNhdG9yLmVsZW1lbnQ9dGFycm93CnRleHQubm9ybWFsLmNvbG9yPSNjZGQ2ZjQKdGV4dC5mb2N1cy5jb2xvcj0jY2RkNmY0CnRleHQucHJlc3MuY29sb3I9I2NkZDZmNAp0ZXh0LnRvZ2dsZS5jb2xvcj0jY2RkNmY0CnRleHQuYm9sZD1mYWxzZQpmcmFtZS5leHBhbnNpb249MzIKCltTY3JvbGxiYXJdCmluaGVyaXRzPVBhbmVsQnV0dG9uQ29tbWFuZAppbmRpY2F0b3Iuc2l6ZT0wCmludGVyaW9yPWZhbHNlCmZyYW1lPWZhbHNlCgpbU2Nyb2xsYmFyR3Jvb3ZlXQppbmhlcml0cz1QYW5lbEJ1dHRvbkNvbW1hbmQKaW50ZXJpb3I9ZmFsc2UKZnJhbWU9ZmFsc2UKCltTY3JvbGxiYXJTbGlkZXJdCmluaGVyaXRzPVBhbmVsQnV0dG9uQ29tbWFuZApmcmFtZS5lbGVtZW50PXNjcm9sbGJhcnNsaWRlcgppbnRlcmlvcj1mYWxzZQpmcmFtZS5sZWZ0PTUKZnJhbWUucmlnaHQ9NQpmcmFtZS50b3A9NQpmcmFtZS5ib3R0b209NQppbmRpY2F0b3IuZWxlbWVudD1ncmlwCmluZGljYXRvci5zaXplPTEyCgpbUHJvZ3Jlc3NiYXJDb250ZW50c10KaW5oZXJpdHM9UGFuZWxCdXR0b25Db21tYW5kCmZyYW1lPXRydWUKZnJhbWUuZWxlbWVudD1wcm9ncmVzcy1wYXR0ZXJuCmludGVyaW9yLmVsZW1lbnQ9cHJvZ3Jlc3MtcGF0dGVybgpmcmFtZS50b3A9MgpmcmFtZS5ib3R0b209MgpmcmFtZS5sZWZ0PTIKZnJhbWUucmlnaHQ9MgoKW1Byb2dyZXNzYmFyXQppbmhlcml0cz1QYW5lbEJ1dHRvbkNvbW1hbmQKZnJhbWUuZWxlbWVudD1wcm9ncmVzcwppbnRlcmlvci5lbGVtZW50PXByb2dyZXNzCmZyYW1lLnRvcD0yCmZyYW1lLmJvdHRvbT0yCmZyYW1lLmxlZnQ9MgpmcmFtZS5yaWdodD0yCnRleHQubWFyZ2luPTAKdGV4dC5ub3JtYWwuY29sb3I9I2NkZDZmNAp0ZXh0LmZvY3VzLmNvbG9yPSNjZGQ2ZjQKdGV4dC5wcmVzcy5jb2xvcj0jY2RkNmY0CnRleHQudG9nZ2xlLmNvbG9yPSNjZGQ2ZjQKdGV4dC5ib2xkPWZhbHNlCmZyYW1lLmV4cGFuc2lvbj04CgpbUmFkaW9CdXR0b25dCmluaGVyaXRzPVBhbmVsQnV0dG9uQ29tbWFuZAoKW01lbnVdCmluaGVyaXRzPVBhbmVsQnV0dG9uQ29tbWFuZApmcmFtZS50b3A9OApmcmFtZS5ib3R0b209OApmcmFtZS5sZWZ0PTgKZnJhbWUucmlnaHQ9OApmcmFtZS5lbGVtZW50PW1lbnUKaW50ZXJpb3IuZWxlbWVudD1tZW51CnRleHQubm9ybWFsLmNvbG9yPSNjZGQ2ZjQKdGV4dC5zaGFkb3c9ZmFsc2UKZnJhbWUuZXhwYW5zaW9uPTAKCltNZW51SXRlbV0KaW5oZXJpdHM9UGFuZWxCdXR0b25Db21tYW5kCmZyYW1lPXRydWUKZnJhbWUuZWxlbWVudD1tZW51aXRlbQppbnRlcmlvci5lbGVtZW50PW1lbnVpdGVtCmluZGljYXRvci5lbGVtZW50PW1lbnVpdGVtCnNpemUubWluaGVpZ2h0PTIyCnRleHQubWFyZ2luLnRvcD0wCnRleHQubWFyZ2luLmJvdHRvbT0wCnRleHQubWFyZ2luLmxlZnQ9NAp0ZXh0Lm1hcmdpbi5yaWdodD00CmZyYW1lLnRvcD00CmZyYW1lLmJvdHRvbT00CmZyYW1lLmxlZnQ9NApmcmFtZS5yaWdodD00CmZyYW1lLmV4cGFuc2lvbj0wCmluZGljYXRvci5lbGVtZW50PWFycm93CmluZGljYXRvci5zaXplPTkKCltNZW51QmFySXRlbV0KaW5oZXJpdHM9UGFuZWxCdXR0b25Db21tYW5kCmludGVyaW9yPXRydWUKaW50ZXJpb3IuZWxlbWVudD1tZW51YmFyaXRlbQpmcmFtZS5lbGVtZW50PW1lbnViYXJpdGVtCmZyYW1lLnRvcD0yCmZyYW1lLmJvdHRvbT0yCmZyYW1lLmxlZnQ9MgpmcmFtZS5yaWdodD0yCnRleHQubWFyZ2luLmxlZnQ9NAp0ZXh0Lm1hcmdpbi5yaWdodD00CnRleHQubWFyZ2luLnRvcD0wCnRleHQubWFyZ2luLmJvdHRvbT0wCnRleHQubm9ybWFsLmNvbG9yPSNjZGQ2ZjQKdGV4dC5mb2N1cy5jb2xvcj0jY2RkNmY0CnRleHQuYm9sZD1mYWxzZQptaW5fd2lkdGg9KzAuM2ZvbnQKbWluX2hlaWdodD0rMC4zZm9udApmcmFtZS5leHBhbnNpb249MAoKW1N0YXR1c0Jhcl0KaW5oZXJpdHM9VG9vbGJhcgpmcmFtZS5lbGVtZW50PXRvb2xiYXIKZm9udC5ib2xkPXRydWUKdGV4dC5ub3JtYWwuY29sb3I9I2NkZDZmNApmcmFtZT10cnVlCmZyYW1lLnRvcD0wCmZyYW1lLmJvdHRvbT0wCgpbVGl0bGVCYXJdCmluaGVyaXRzPVBhbmVsQnV0dG9uQ29tbWFuZApmcmFtZT1mYWxzZQppbnRlcmlvcj1mYWxzZQp0ZXh0Lm1hcmdpbi50b3A9Mgp0ZXh0Lm1hcmdpbi5ib3R0b209Mgp0ZXh0Lm1hcmdpbi5sZWZ0PTMKdGV4dC5tYXJnaW4ucmlnaHQ9MwoKW0NvbWJvQm94XQppbmhlcml0cz1QYW5lbEJ1dHRvbkNvbW1hbmQKaW5kaWNhdG9yLnNpemU9OApmcmFtZS50b3A9MwpmcmFtZS5ib3R0b209MwpmcmFtZS5sZWZ0PTMKZnJhbWUucmlnaHQ9Mwp0ZXh0Lm1hcmdpbi50b3A9MQp0ZXh0Lm1hcmdpbi5ib3R0b209MQp0ZXh0Lm1hcmdpbi5sZWZ0PTMKdGV4dC5tYXJnaW4ucmlnaHQ9Mwp0ZXh0LnRvZ2dsZS5jb2xvcj0jY2RkNmY0CgpbVG9vbGJveFRhYl0KaW5oZXJpdHM9UGFuZWxCdXR0b25Db21tYW5kCnRleHQubm9ybWFsLmNvbG9yPSNjZGQ2ZjQKdGV4dC5wcmVzcy5jb2xvcj0jY2RkNmY0CnRleHQuZm9jdXMuY29sb3I9I2NkZDZmNAoKW1dpbmRvd10KaW50ZXJpb3I9dHJ1ZQppbnRlcmlvci5lbGVtZW50PXdpbmRvdwoAAAAAAAAAAF4oAAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8"
 						],
 						[
-							11,
+							8,
+							4,
+							"left_delete",
+							null,
+							"BAAAAM4CAAAAAAAAzgIAAAAAAAABAAAAZc0CAAAAAAAAzQIAAAAAAAABAAAAdcwCAAAAAAAAzAIAAAAAAAABAAAAcssCAAAAAAAAywIAAAAAAAABAAAAdA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADPAgAAAAAAAM8CAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							9,
 							1,
 							"insert",
 							{
-								"characters": "2"
+								"characters": "false"
 							},
-							"AQAAABYBAAAAAAAAFwEAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAFgEAAAAAAAAWAQAAAAAAAAAAAAAAAPC/"
+							"BQAAAMsCAAAAAAAAzAIAAAAAAAAAAAAAzAIAAAAAAADNAgAAAAAAAAAAAADNAgAAAAAAAM4CAAAAAAAAAAAAAM4CAAAAAAAAzwIAAAAAAAAAAAAAzwIAAAAAAADQAgAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADLAgAAAAAAAMsCAAAAAAAAAAAAAAAA8L8"
+						],
+						[
+							12,
+							4,
+							"left_delete",
+							null,
+							"BAAAAL4FAAAAAAAAvgUAAAAAAAABAAAAZb0FAAAAAAAAvQUAAAAAAAABAAAAdbwFAAAAAAAAvAUAAAAAAAABAAAAcrsFAAAAAAAAuwUAAAAAAAABAAAAdA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC/BQAAAAAAAL8FAAAAAAAAAAAAAAAA8L8"
 						],
 						[
 							13,
 							1,
-							"left_delete",
-							null,
-							"AQAAABkBAAAAAAAAGQEAAAAAAAABAAAAMw",
-							"AQAAAAAAAAABAAAAGgEAAAAAAAAaAQAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							14,
-							1,
 							"insert",
 							{
-								"characters": "5"
+								"characters": "false"
 							},
-							"AQAAABkBAAAAAAAAGgEAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAGQEAAAAAAAAZAQAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							19,
-							5,
-							"left_delete",
-							null,
-							"BQAAAMUBAAAAAAAAxQEAAAAAAAABAAAAZcQBAAAAAAAAxAEAAAAAAAABAAAAc8MBAAAAAAAAwwEAAAAAAAABAAAAbMIBAAAAAAAAwgEAAAAAAAABAAAAYcEBAAAAAAAAwQEAAAAAAAABAAAAZg",
-							"AQAAAAAAAAABAAAAxgEAAAAAAADGAQAAAAAAAAAAAAAAAPC/"
-						],
-						[
-							20,
-							1,
-							"insert",
-							{
-								"characters": "true"
-							},
-							"BAAAAMEBAAAAAAAAwgEAAAAAAAAAAAAAwgEAAAAAAADDAQAAAAAAAAAAAADDAQAAAAAAAMQBAAAAAAAAAAAAAMQBAAAAAAAAxQEAAAAAAAAAAAAA",
-							"AQAAAAAAAAABAAAAwQEAAAAAAADBAQAAAAAAAAAAAAAAAPC/"
+							"BQAAALsFAAAAAAAAvAUAAAAAAAAAAAAAvAUAAAAAAAC9BQAAAAAAAAAAAAC9BQAAAAAAAL4FAAAAAAAAAAAAAL4FAAAAAAAAvwUAAAAAAAAAAAAAvwUAAAAAAADABQAAAAAAAAAAAAA",
+							"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC7BQAAAAAAALsFAAAAAAAAAAAAAAAA8L8"
 						]
 					]
+				},
+				{
+					"file": "/home/tof/Downloads/config",
+					"settings":
+					{
+						"buffer_size": 92,
+						"line_ending": "Unix"
+					}
 				}
 			],
 			"build_system": "",
@@ -473,15 +523,438 @@
 			},
 			"file_history":
 			[
+				"/home/tof/Documents/Tests/wf-recorder.txt",
+				"/home/tof/STOCK1/Download-Torrent/Les.Disparues.de.la.gare.S01.FRENCH.1080p.WEB.H264-SUPPLY/Les.Disparues.de.la.gare.S01.FRENCH.1080p.WEB.H264-SUPPLY.nfo",
+				"/home/tof/.config/audacious/config",
+				"/home/tof/.config/menus/applications.menu",
+				"/home/tof/.config/hypr/scripts/xdg-portal-hyprland",
+				"/home/tof/.config/hypr/scripts/xdg-portal-hyprland.save",
+				"/home/tof/.config/hypr/scripts/xdg.save.txt",
+				"/home/tof/.config/hypr/GEMINI.md",
+				"/home/tof/Documents/.MDP/bank.txt",
+				"/home/tof/Documents/.MDP/NEW-Ultimate-list.txt",
+				"/home/tof/.boxes-unknown.draft.txt",
+				"/home/tof/DATAX2/Documents/Documents/.MDP/bank2.txt",
+				"/home/tof/Documents/SAV-arch-nas.sh",
+				"/home/tof/Drive/PERSO/Codes/Nouveau Document texte.txt",
+				"/home/tof/aide.sh",
+				"/home/tof/STOCK1/BOULOT-SAV/Documents/7_SERVICES GENERAUX/Perso/ecole.txt",
+				"/home/tof/STOCK1/BOULOT-SAV/Documents/7_SERVICES GENERAUX/Perso/pourimpots.txt",
+				"/home/tof/Documents/Arch-linux-memo/cleaning-archlinux.txt",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/linuxrc",
+				"/home/tof/Documents/Arch-linux-memo/debug-archlinux.txt",
+				"/home/tof/Documents/SRV/THM.ovpn",
+				"/home/tof/Documents/Arch-linux-memo/clean-arch.sh",
+				"/home/tof/SAV-arch-nas.sh",
+				"/home/tof/.config/poshthemes/1_shell.omp.json",
+				"/home/tof/Documents/MDP-A-FAIRE/NEW-Ultimate-list.txt",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume0/usr/etc/ssh/ssh_config",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume0/usr/etc/ssh/sshd_config",
+				"/home/tof/Downloads/authorized_keys",
+				"/home/tof/Dotfiles/README-perplex.txt",
+				"/home/tof/.config/waybar2/config",
+				"/home/tof/DATAX1/torrents/Series/Anaon.S01.FRENCH.1080p.WEB.H264-FW/Anaon.S01.FRENCH.1080p.WEB.H264-FW.nfo",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.228/home/kali/Documents/Easy-as-Pie/memo.txt",
+				"/home/tof/.config/yazi/yazi-default.toml",
 				"/etc/pacman.conf",
 				"/home/tof/STOCK1/SaV/Documents/MDP-A-FAIRE/NEW-Ultimate-list.txt",
 				"/home/tof/Musique/matmahta",
 				"/home/tof/.config/fastfetch/config.jsonc",
 				"/home/tof/Documents/flood-save.sh",
 				"/home/tof/Documents/sequence-video.txt",
-				"/home/tof/Documents/Tests/wf-recorder.txt",
 				"/home/tof/STOCK1/Download-Torrent/The Legend of Zelda - Echoes of Wisdom v1.0.1 + Ryujinx-Suyu Switch Emulators/The Legend of Zelda - Echoes of Wisdom v1.0.1 + Ryujinx-Suyu Switch Emulators/_How to Install.txt",
+				"/home/tof/.config/waybar2/style.css",
+				"/home/tof/.config/waybar/config",
+				"/home/tof/.config/hypr-conf1/look.conf",
+				"/home/tof/Downloads/MIROR/doc.lagout.org/find.txt",
+				"/home/tof/STOCK1/Download-Torrent/The Legend of Zelda - Echoes of Wisdom v1.0.1 + Ryujinx-Suyu Switch Emulators/_Description.txt",
+				"/home/tof/.config/0-switch/switch_hyprland_config.sh",
+				"/home/tof/.config/hypr/scripts/waybar.sh",
+				"/home/tof/.config/hypr/scripts/waybar.sh.save",
+				"/home/tof/.zshrc",
+				"/home/tof/.config/kitty/mocha.conf",
+				"/home/tof/.config/kitty/kitty.conf",
+				"/home/tof/.config/waybar/style.css",
+				"/home/tof/.config/hypr/icon.png",
+				"/home/tof/.config/hypr/look.conf",
+				"/home/tof/.config/waybar2/config.19.09",
+				"/usr/share/pipewire/pipewire.conf",
+				"/home/tof/.config/hypr/windowrules.conf",
+				"/home/tof/Documents/change-bg-sddm.sh",
+				"/home/tof/.config/hypr/hyprland.conf",
+				"/home/tof/.config/hypr/binds.conf",
+				"/home/tof/zshrc",
+				"/home/tof/Documents/CHEAT-SHEET/EnumerationCheatSheet.md",
+				"/home/tof/.config/README",
+				"/home/tof/Documents/CHEAT-SHEET/LinEnum.sh",
+				"/home/tof/copy-paste.txt",
+				"/home/tof/Documents/CHEAT-SHEET/lse.sh",
+				"/home/tof/startup.conf",
+				"/home/tof/STOCK1/Download-Torrent/[ Torrent911.rs ] Lady.in.the.Lake.S01E01.MULTi.1080p.WEB.H264-FW/Lady.in.the.Lake.S01E01.MULTi.1080p.WEB.H264-FW.nfo",
+				"/home/tof/Drive/Drive-google/voyage.memo.txt",
+				"/home/tof/.config/Ascii/felix",
+				"/home/tof/STOCK1/Download-Torrent/CYGNI.All.Guns.Blazing-RUNE/_INSTALL TUTORIAL.txt",
+				"/home/tof/STOCK1/Download-Torrent/CYGNI.All.Guns.Blazing-RUNE/README.txt",
+				"/home/tof/.config/caja/scripts/Terminal-Here",
+				"/home/tof/.config/caja/scripts/Terminal-Here-Root",
+				"/home/tof/.config/neofetch/config.conf",
+				"/home/tof/.config/caja/scripts/Word-Count",
+				"/home/tof/DATAX1/torrents/Films-terminés/[ Torrent911.gs ] L.incroyable.embouteillage.2.vive.les.maries.2024.FRENCH.1080p.WEB.x264-FW/L.incroyable.embouteillage.2.vive.les.maries.2024.FRENCH.1080p.WEB.x264-FW.nfo",
+				"/home/tof/.config/user-dirs.locale",
+				"/home/tof/Documents/CHEAT....txt",
+				"/srv/http/index.html",
+				"/home/tof/Downloads/levelx00.py",
+				"/home/tof/Documents/cheat.sh",
+				"/home/tof/Documents/Srv/cheat.sh",
+				"/srv/http/cheat.sh",
+				"/home/tof/Documents/Web-test/hacker-theme/Cheat.html",
+				"/home/tof/Documents/CHEAT-SHEET/index.html",
+				"/home/tof/Documents/Arch-linux-memo/fancontrol.txt",
+				"/home/tof/Documents/Scripts/scan-rezo-ping",
+				"/home/tof/Documents/Scripts/cpu-mem-etc-info.sh",
+				"/home/tof/Documents/Scripts/Open-rgb.sh",
+				"/home/tof/Documents/Scripts/pynput",
+				"/home/tof/Documents/Scripts/services.sh",
+				"/home/tof/Documents/Sav-bak-nas.log",
+				"/home/tof/Documents/SAV-endeavour-bak-nas.sh",
+				"/home/tof/Documents/Scripts/Save-celine.sh",
+				"/home/tof/Documents/Scripts/cpu-usage",
+				"/home/tof/Documents/Scripts/clean-arch.sh",
+				"/home/tof/Documents/Scripts/Arch_Cleaner.sh",
+				"/home/tof/Documents/Scripts/bellafetch.sh",
+				"/home/tof/Documents/Sav-Dot-files.sh",
+				"/home/tof/Dotfiles/hypr/hyprland.conf",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/Codes/NEW-Ultimate-list.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/wifi.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/one.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/Nouveau document texte (2).txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/new1.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/Epsens-the.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/new.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/epsens2.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/adp.txt",
+				"/home/tof/Drive/Drive-google/PERSO/Codes/epsens.txt",
+				"/home/tof/Documents/MDP-A-FAIRE/wifi.txt",
+				"/home/tof/Documents/MDP-A-FAIRE/comptemicrochiote.txt",
+				"/home/tof/Documents/MDP-A-FAIRE/TOF-SAVE/Copie-pv/57468924.txt",
+				"/home/tof/Documents/MDP-A-FAIRE/box.txt",
+				"/home/tof/Documents/MDP-A-FAIRE/Afaire.txt",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/Codes/Nouveau document texte (2).txt",
+				"/home/tof/Documents/Ascii/omer",
+				"/home/tof/Documents/Ascii/felix",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/Epsens-the.txt",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/new.txt",
+				"/home/tof/Documents/help-alias",
+				"/home/tof/Documents/subl-md-git",
+				"/home/tof/Documents/index.html",
+				"/home/tof/Documents/indexxxxx.html",
+				"/home/tof/Downloads/phpinfolfi.py",
+				"/home/tof/Downloads/sol-l148.txt",
+				"/home/tof/Downloads/89.txt"
+			],
+			"find":
+			{
+				"height": 34.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"translucent_windows=false",
+					"fragm"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"scrollbar_highlights": true,
+				"show_context": true,
+				"use_buffer2": true,
+				"use_gitignore": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/tof/.config/session/dolphin_dolphin_dolphin",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 530,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/tof/.config/Kvantum/Dream-Violet-Dark-Kvantum/Dream-Violet-Dark-Kvantum.kvconfig",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 10336,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1447,
+										1472
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1358.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"stack_multiselect": false,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/tof/Downloads/config",
+							"selected": true,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 92,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Git Formats/Git Config.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"stack_multiselect": false,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,618,698,2560,1440,0",
+			"project": "",
+			"replace":
+			{
+				"height": 64.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 4,
+			"workspace_name": ""
+		},
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/tof/Documents/save-fstbab.txt",
+					"settings":
+					{
+						"buffer_size": 647,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/tof/.boxes-unknown.draft.txt",
+				"/home/tof/Documents/.MDP/NEW-Ultimate-list.txt",
+				"/home/tof/DATAX2/Documents/Documents/.MDP/bank2.txt",
+				"/home/tof/Documents/SAV-arch-nas.sh",
+				"/home/tof/Drive/PERSO/Codes/Nouveau Document texte.txt",
+				"/home/tof/Documents/Tests/wf-recorder.txt",
+				"/home/tof/aide.sh",
+				"/home/tof/STOCK1/BOULOT-SAV/Documents/7_SERVICES GENERAUX/Perso/ecole.txt",
+				"/home/tof/STOCK1/BOULOT-SAV/Documents/7_SERVICES GENERAUX/Perso/pourimpots.txt",
+				"/home/tof/Documents/Arch-linux-memo/cleaning-archlinux.txt",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/linuxrc",
+				"/home/tof/Documents/Arch-linux-memo/debug-archlinux.txt",
+				"/home/tof/Documents/SRV/THM.ovpn",
+				"/home/tof/Documents/Arch-linux-memo/clean-arch.sh",
+				"/home/tof/SAV-arch-nas.sh",
+				"/home/tof/.config/poshthemes/1_shell.omp.json",
+				"/home/tof/Documents/MDP-A-FAIRE/NEW-Ultimate-list.txt",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume0/usr/etc/ssh/ssh_config",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume0/usr/etc/ssh/sshd_config",
+				"/home/tof/Downloads/authorized_keys",
+				"/home/tof/Dotfiles/README-perplex.txt",
 				"/home/tof/.config/waybar2/config",
+				"/home/tof/DATAX1/torrents/Series/Anaon.S01.FRENCH.1080p.WEB.H264-FW/Anaon.S01.FRENCH.1080p.WEB.H264-FW.nfo",
+				"/run/user/1000/gvfs/sftp:host=192.168.1.228/home/kali/Documents/Easy-as-Pie/memo.txt",
+				"/home/tof/.config/yazi/yazi-default.toml",
+				"/etc/pacman.conf",
+				"/home/tof/STOCK1/SaV/Documents/MDP-A-FAIRE/NEW-Ultimate-list.txt",
+				"/home/tof/Musique/matmahta",
+				"/home/tof/.config/fastfetch/config.jsonc",
+				"/home/tof/Documents/flood-save.sh",
+				"/home/tof/Documents/sequence-video.txt",
+				"/home/tof/STOCK1/Download-Torrent/The Legend of Zelda - Echoes of Wisdom v1.0.1 + Ryujinx-Suyu Switch Emulators/The Legend of Zelda - Echoes of Wisdom v1.0.1 + Ryujinx-Suyu Switch Emulators/_How to Install.txt",
 				"/home/tof/.config/waybar2/style.css",
 				"/home/tof/.config/waybar/config",
 				"/home/tof/.config/hypr-conf1/look.conf",
@@ -524,13 +997,11 @@
 				"/home/tof/Documents/CHEAT....txt",
 				"/srv/http/index.html",
 				"/home/tof/Downloads/levelx00.py",
-				"/home/tof/Documents/SAV-arch-nas.sh",
 				"/home/tof/Documents/cheat.sh",
 				"/home/tof/Documents/Srv/cheat.sh",
 				"/srv/http/cheat.sh",
 				"/home/tof/Documents/Web-test/hacker-theme/Cheat.html",
 				"/home/tof/Documents/CHEAT-SHEET/index.html",
-				"/home/tof/Documents/Arch-linux-memo/debug-archlinux.txt",
 				"/home/tof/Documents/Arch-linux-memo/fancontrol.txt",
 				"/home/tof/Documents/Scripts/scan-rezo-ping",
 				"/home/tof/Documents/Scripts/cpu-mem-etc-info.sh",
@@ -547,7 +1018,6 @@
 				"/home/tof/Documents/Sav-Dot-files.sh",
 				"/home/tof/Dotfiles/hypr/hyprland.conf",
 				"/run/user/1000/gvfs/sftp:host=192.168.1.181/volume1/home/letof/Drive-google/PERSO/Codes/NEW-Ultimate-list.txt",
-				"/home/tof/Documents/MDP-A-FAIRE/NEW-Ultimate-list.txt",
 				"/home/tof/Drive/Drive-google/PERSO/Codes/wifi.txt",
 				"/home/tof/Drive/Drive-google/PERSO/Codes/one.txt",
 				"/home/tof/Drive/Drive-google/PERSO/Codes/Nouveau document texte (2).txt",
@@ -581,7 +1051,7 @@
 			],
 			"find":
 			{
-				"height": 28.0
+				"height": 34.0
 			},
 			"find_in_files":
 			{
@@ -619,30 +1089,28 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/tof/.config/yazi/yazi-default.toml",
+							"file": "/home/tof/Documents/save-fstbab.txt",
 							"selected": true,
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 6542,
+								"buffer_size": 647,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										453,
-										453
+										0,
+										0
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": false
+									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 946.0,
+								"translation.y": 438.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -654,7 +1122,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 28.0
+				"height": 34.0
 			},
 			"input":
 			{
@@ -685,14 +1153,17 @@
 			"menu_visible": true,
 			"output.find_results":
 			{
-				"height": 0.0
+				"height": 0.0,
+				"history":
+				[
+				]
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,1258,1416,2560,1440,0",
+			"position": "0,1,0,0,0,0,0,620,698,2560,1440,0",
 			"project": "",
 			"replace":
 			{
-				"height": 52.0
+				"height": 64.0
 			},
 			"save_all_on_build": true,
 			"select_file":
