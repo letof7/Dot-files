@@ -41,7 +41,6 @@ unsetopt AUTO_LIST
 
 # ==========================================
 alias aide='kitty zsh -c "~/aide.sh; exec zsh"'
-alias z='kitty sh -c "grep -E \"^alias \" ~/.zshrc; exec zsh"'
 alias reload="source ~/.zshrc && fastfetch"
 alias c='clear'
 alias re="c;reload"
@@ -65,7 +64,7 @@ alias rm="rm -i"
 alias size="du -sh * | sort -rh"
 alias kat="/usr/bin/cat"
 alias tree=gt
-alias find="fd -H -a" 
+alias fd="fd -H -a" 
 # ==========================================
 alias tele="cd ~/Downloads && pwd && ls -al"
 alias doc="cd ~/Documents && pwd && ll"
@@ -94,7 +93,7 @@ alias nano="nano -Y sh"
 alias grep="grep --color=auto -i"
 alias cheat="curl cheat.sh"
 alias hg="history | grep "
-alias help=cheat
+alias helpme=cheat
 alias word=desktopeditors
 alias office=desktopeditors
 
