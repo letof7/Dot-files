@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/letof7/Dot-files/blob/main/output2.gif?raw=true" alt="sc">
+  <img src="https://github.com/letof7/Dot-files/Imgs/output2.gif?raw=true" alt="sc">
 </p>
 
 > This repository contains my personal dotfiles for my Arch setup. It is customized for the Hyprland desktop environment.
