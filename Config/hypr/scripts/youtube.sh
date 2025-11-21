@@ -26,7 +26,7 @@ option=$1
 url=$2
 
 # Set download path
-download_path="/home/tof/Downloads/yt-downloads"
+download_path="$HOME/Downloads/yt-downloads"
 mkdir -p "$download_path"
 
 # Perform the requested action

@@ -2,7 +2,7 @@
 #swww query || swww init
 pgrep -x swww-daemon >/dev/null || swww-daemon &
 sleep 1
-DIR="/home/tof/Images"
+DIR="$HOME/Images"
 SLEEPTIME=360
 while :
 do
