@@ -4,6 +4,36 @@
 
 > This repository contains my personal dotfiles for my Arch setup. It is customized for the Hyprland desktop environment.
 
+
+    Window manager: Hyprland
+    Wallpaper manager: script for random
+    Panel: Waybar
+    Shell: Ohmyzsh
+    Prompt: oh-my-posh
+    Terminal: Kitty, Foot
+    Window manager: sddm-greeter
+    Notification manager: Dunst
+    File manager: Dolphin, Yazi
+    Menu: Wofi
+    Web browser: Firefox
+    Screenshot: Grim 
+    Text editor: Sublime Text
+    
+
+Theme for Grub: Dedsec
+https://github.com/VandalByte/dedsec-grub2-theme
+
+
+sddm-greeter : abstractdark-sddm-theme
+https://github.com/3ximus/abstractdark-sddm-theme
+
+
+<p align="center">
+  <a href="Imgs/grub.jpg"><img src="Imgs/mini.grub.jpg" alt="mini.grub"></a>
+  <a href="Imgs/sddm.jpg"><img src="Imgs/mini.sddm.jpg" alt="mini.sddm"></a>
+</p>
+
+
 ## Miniatures
 
 <p align="center">
@@ -15,4 +45,7 @@
 
 <p align="center">
   <a href="https://mega.nz/folder/7nRlhLYQ#q5W2EFLTmvQmzL3ZCyqINQ">My Wallpapers on Cloud</a>
+<a href="Imgs/wallp.jpg"><img src="Imgs/mini.wallp.jpg" alt="mini.wallp"></a>
+
+
 </p>
