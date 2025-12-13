@@ -1,142 +1,72 @@
-@define-color critical #ff0000; /* couleur critique */
-@define-color warning #f3f809;  /* couleur d'avertissement */
-@define-color fgcolor #ffffff;  /* couleur de premier plan */
-@define-color bgcolor #303030;  /* couleur de fond */
-@define-color bgcolor #222436;  /* couleur de fond */
-@define-color alert   #df3320;
-@define-color accent1 #e0e0e0;
-@define-color accent2 #d0d0d0;
-@define-color accent3 #c0c0c0;
-@define-color accent4 #b0b0b0;
-@define-color accent5 #a0a0a0;
-@define-color accent6 #909090;
-
 * {
-    border: none;
-    font-family: "CaskaydiaCove Nerd Font", "Font Awesome 5 Free", monospace;
-    font-size: 14px;
+    font-family: "CaskaydiaCove Nerd Font";
+    font-size: 15px;
+    transition: background-color .5s ease;    
 }
-
+.modules-left,
+.modules-right {
+    margin: 0px 0px;
+    border-radius: 0px;
+    padding-left: 0px;
+}
 window#waybar {
-    background-color: rgba(28, 28, 35, 0.85);
-    transition-property: background-color;
-    transition-duration: .5s;
-    border-radius: 13px;
-    border: 2px solid rgba(200, 200, 200, 0.5);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
-
-window#waybar > box {
     background: transparent;
+    color: #d1d4e3;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+#custom-menu {
+    color:rgb(212, 212, 15);
+    font-size: 24px;
+}
+#custom-menu:hover {
+    color: rgb(255, 255, 0)
+}
+#workspaces button {
+    background: transparent;
+    color: rgba(255, 255, 0, 0.3);
+    font-weight: 900; 
+    font-size: 20px;
     border: none;
 }
-
-window#waybar.hidden {
-    opacity: 0.2;
-}
-
-#workspaces button {
-    padding: 0px;
-    margin: 4px 0 6px 0;
-    background-color: transparent;
-    color: #e0e0e0;
-    min-width: 36px;
-}
-
 #workspaces button.active {
-    padding: 0 0 0 0;
-    margin: 4px 0 6px 0;
-    background-color: #e0e0e0;
-    color: #303030;
-    min-width: 36px;
+    color: rgba(255, 255, 0, 1);;
 }
-
 #workspaces button:hover {
-    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    box-shadow: none;
 }
-
-#workspaces button.focused {
-    background-color: #d0d0d0;
-    color: #303030;
-}
-
-#workspaces button.urgent {
-    color: @critical;
-}
-
-#mode {
-    background-color: #808080;
-    border-bottom: 1px solid #ffffff;
-}
-
-#custom-screenshot,
-#clock,
-#disk,
-#cpu,
-#memory,
-#network,
-#pulseaudio,
-#tray,
-#window,
-#custom-power_btn,
-#custom-network_traffic,
-#workspaces {
-    margin: 0 4px;
-}
-
-.modules-left > widget:first-child > #workspaces {
-    margin-left: 0;
-}
-
-.modules-right > widget:last-child > #workspaces {
-    margin-right: 0;
-}
-
-#window {
-    color: #c0c0c0;
-    font-size: 10px 
-}
-
-#custom-network_traffic {
-    color: #e0e0e0;
-    font-size: 10px;
-}
-
 #clock {
-    color: #c0c0c0;
+    padding-top: 0px;
+    font-family: "Floor Tiles Big C";
+    font-size: 15px;
+    font-weight: 500;
 }
-
-#disk {
-    color: #c0c0c0;
-}
-
 #cpu {
-    color: @accent1;
+    color: #AAAAAA
 }
-
+#disk {
+    color: #AAAAAA
+}
+#custom-gpu {
+    color: #AAAAAA
+}
 #memory {
-    color: #e0e0e0;
+    color: #AAAAAA
 }
-
 #network {
-    color: @accent3;
+    color: #AAAAAA
 }
-
-#network.disconnected {
-    color: @alert;
-}
-
 #pulseaudio {
-    color: @accent4;
+    color: #AAAAAA
 }
-
-#pulseaudio.muted {
-    color: #e0e0e0;
+#window {
+    color: #AAAAAA
 }
-
-#custom-separator {
-    color: #e0e0e0;
-    margin: 0 1px;
-    padding-bottom: 5px;
+#language {
+    color: #000000
 }
-
+#custom-clock {
+    color: #00fddb;
+}

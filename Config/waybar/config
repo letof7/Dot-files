@@ -1,108 +1,83 @@
 {
-    "layer": "top",
-    "position": "top",
-    "height": 15,
-    "width": 2530,
-    "margin": "3, 0, 2, 0",
+    "layer": "top", // Layer of waybar
+    "position": "top", // Position of waybar
+    "height": 15, // Height of waybar
+    "spacing": 5, // Pixels between modules
+
 
     "modules-left": [
-    "cpu",
-    "custom/separator",
-    "memory",
-    "custom/separator",
-    "disk",
-    "disk#2",
-    "custom/separator",
-    "hyprland/window"
+        "custom/menu",
+        "hyprland/workspaces",
+        "clock",
+        "hyprland/window"
     ],
-
     "modules-center": [
-    "custom/screenshot",
-    "tray",
-    "custom/separator",
-    "hyprland/workspaces",
-    "custom/separator",
-    "wlr/taskbar"
+        "custom/screenshot",
+        "tray",
+        "wlr/taskbar",
+        "custom/cava"
     ],
-
     "modules-right": [
         "network",
-        "custom/separator",
-
-    
-    "clock",
-    "custom/separator",
-    "pulseaudio",
-    "custom/separator",
-    "custom/power_btn",
+        "cpu",
+        "custom/gpu",
+        "memory",
+        "disk",
+        "disk#2",
+        "pulseaudio",
+        "custom/power_btn"
     ],
+
+
+
+    "custom/menu": {
+        "format": " 󰮯 ",
+        "tooltip": false,
+        "on-click": "wofi --show drun"
+    },
+
+
+"custom/cava": {
+    "format": "{text}",
+    "exec": "~/.config/waybar/scripts/cava_module.py",
+    "return-type": "json"
+
+    },
+
+
+
 
     "hyprland/workspaces": {
         "format": "{icon}",
-        "icon-size": 30,
         "format-icons": {
-            "1": "",
-            "2": "",
-            "3": "󰎇",
-            "4": "",
-            "5": "",
-            "6": "󰮯",
-            "7": "󰮯",
-            "8": "󰼸",
-            "9": "󰮯",
-            "urgent": "",
-            "focused": "",
-            "default": ""
-    }
-
-
+        "active": "󰮯",
+        "default": "○" 
+      },
+      "persistent-workspaces": {
+        "*": 9
+      }
     },
-
-    "custom/screenshot": {
-    "format": "󰹑 ",
-    "tooltip": "Capture d'écran",
-    "on-click": "grim -g \"$(slurp)\" ~/Documents/Imgs/screen-shot/screenshot_$(date +'%Y-%m-%d_%H-%M-%S').png"
-    
-    },
-    "custom/separator": {
-	"format": "<span foreground='#ffffff'>  </span>",
-        "interval": "once",
-        "tooltip": false
-    },
-    "custom/power_btn": {
-	"format": "<span foreground='#ff5555'>  </span>",
-        "icon-size": 30,
-        "on-click": "sh -c '(sleep 0.5s; wlogout --protocol layer-shell)' & disown",
-        "tooltip": false
-    },
-     "custom/network_traffic": {
-             "exec": "~/.config/waybar/scripts/network_traffic.sh enp7s0",
-             "return-type": "json",
-             "format": "{}",    // optional
-    },
-    "tray": {
-        "icon-size": 20,
-        "spacing": 6
-    },
-    "clock": {
+    "cpu": {
+        "format": "  CPU {usage}%",
         "interval": 1,
-        "locale": "C", 
-        "format": "  {:%I:%M %p}",
-        "format-alt": " {:%a,%b %d}" // Icon: calendar-alt
+        "tooltip": false
     },
-    "cpu": { 
-"format": "<span foreground='#a6da95'> </span>&#8239; {usage}%",
-"tooltip": false, "on-click": 
-"kitty -e 'btop'"
-
+    "custom/gpu": {
+        "exec": "cat /sys/class/hwmon/hwmon2/device/gpu_busy_percent",
+        "format": " 󰢮 GPU {}%",
+        "return-type": "",
+        "interval": 1,
+        "tooltip": false
     },
     "memory": {
-        "interval": 30,
-        "format": " {used:0.2f}GB",
-        "max-length": 10,
+        "format": " 󰒋 RAM {}%",
+	    "tooltip": false
+    },
+    "custom/power_btn": {
+        "format": "<span foreground='#FCC92F'>   </span>",
+        "on-click": "sh -c '(sleep 0.5s; wlogout --protocol layer-shell)' & disown",
         "tooltip": false,
-        "warning": 70,
-        "critical": 90
+        "icon-size": 20,
     },
     "disk": {
         "interval": 30,
@@ -118,61 +93,54 @@
         "tooltip": true,
         "tooltip-format": "HDD - {used} used out of {total} on {path} ({percentage_used}%)",
     },
-    "wlr/taskbar": {
-        "format": "{icon}",
-        "all-outputs": true,
-        "icon-size": 14,
-        "icon-theme": "candy-icons",
-        "tooltip-format": "{title}",
-        "on-click": "activate",
-        "on-click-middle": "close",
-        "app_ids-mapping": {
-        "firefoxdeveloperedition": "firefox-developer-edition"
+    "pulseaudio": {
+        "format": " {icon} {volume}%",
+        "format-icons": ["", "", ""],
+        "tooltip": false,
+    "on-click": "pavucontrol"
     },
-    "rewrite": {
-        "Firefox Web Browser": "Firefox",
-        "Foot Server": "Terminal"
-    }
-    
+    "hyprland/language": {
+       "format": "  {}",
+       "format-en": "EN",
+       "format-ru": "RU"
     },
- 
-
+    "tray": {
+    "icon-size": 20,
+    "spacing": 6
+    },
+    "custom/screenshot": {
+    "format": "{icon}",
+    "icon-size": 30,
+    "format-icons": "󰹑 ",
+    "tooltip": "Capture d'écran",
+    "on-click": "grim -g \"$(slurp)\" ~/Documents/Imgs/screen-shot/screenshot_$(date +'%Y-%m-%d_%H-%M-%S').png && notify-send 'Screenshot OK' -t 3000 -u normal"
+    },
 "network": {
   "interface": "enp7s0",
   "interval": 2,
   "format": "󰈀 {ifname} {ipaddr}",
-  "format-ethernet": "󰈀 {ifname} {ipaddr} 󰄺 {bandwidthUpBits}bps | 󰄾 {bandwidthDownBits}bps",
-  "format-wifi": " {essid} {ipaddr} 󰄺 {bandwidthUpBits}bps | 󰄾 {bandwidthDownBits}bps",
+  "format-ethernet": "⇧⇧{bandwidthUpBits}  ⇩⇩{bandwidthDownBits}  󰈀 ",
+  "format-wifi": " {essid} {ipaddr} 󰄺 {bandwidthUpBits}bps  󰄾 {bandwidthDownBits}bps",
   "format-disconnected": "󰖪 déconnecté",
   "tooltip-format": "{ifname} via {gwaddr}\n󰆨 IP : {ipaddr}/{cidr}\n󰄺 UP : {bandwidthUpBits}bps\n󰄾 DOWN : {bandwidthDownBits}bps",
   "on-click": "",
   "max-length": 50
-
-
-
-
+    },
+"wlr/taskbar": {
+"format": "{icon}",
+"all-outputs": true,
+"icon-size": 20,
+"icon-theme": "candy-icons",
+"tooltip-format": "{title}",
+"on-click": "activate",
+"on-click-middle": "close",
+"app_ids-mapping": {
+"firefoxdeveloperedition": "firefox-developer-edition"
 },
-    "pulseaudio": {
-        "format": "{icon} {volume}%",
-        "format-muted": "",
-        "on-click": "pamixer -t",
-        "on-click-right": "pavucontrol",
-        "on-scroll-up": "pamixer -i 5",
-        "on-scroll-down": "pamixer -d 5",
-        "scroll-step": 5,
-        "format-icons": {
-            "headphone": "",
-            "hands-free": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", "", ""]
-    },
-    "keybinds": {
-        "438u": "pamixer -i 5",
-        "439u": "pamixer -d 5"
-        }
-    },
-    
+    "custom/clock": {
+        "exec": "date '+%d-%m-%Y'",
+        "format": " {} ",
+        "tooltip": false
+    }
+},
 }
