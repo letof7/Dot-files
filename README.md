@@ -54,8 +54,7 @@ https://github.com/3ximus/abstractdark-sddm-theme
   <a href="https://mega.nz/folder/z34hjAzb#nbCFv5Nnumm0-K_hcTTKXQ">My Wallpapers on Cloud</a>
 =======
   <a href="https://mega.nz/folder/7nRlhLYQ#q5W2EFLTmvQmzL3ZCyqINQ">My Wallpapers on Cloud</a>
->>>>>>> f1b01dff3b3b14ddcac34178cb4fbf0abf068473
-<a href="Imgs/wallp.jpg"><img src="Imgs/mini.wallp.jpg" alt="mini.wallp"></a>
+  <a href="Imgs/wallp.jpg"><img src="Imgs/mini.wallp.jpg" alt="mini.wallp"></a>
 
 
 </p>
