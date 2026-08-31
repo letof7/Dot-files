@@ -13,15 +13,12 @@
     Terminal: Kitty, Foot
     Window manager: sddm-greeter
     Notification manager: Dunst
-<<<<<<< HEAD
     File manager: PcmanFL, Yazi
     Menu: Wofi
     Web browser: OPera
-=======
     File manager: Dolphin, Yazi
     Menu: Wofi
     Web browser: Firefox
->>>>>>> f1b01dff3b3b14ddcac34178cb4fbf0abf068473
     Screenshot: Grim 
     Text editor: Sublime Text
     
@@ -50,9 +47,7 @@ https://github.com/3ximus/abstractdark-sddm-theme
 ## Cloud
 
 <p align="center">
-<<<<<<< HEAD
   <a href="https://mega.nz/folder/z34hjAzb#nbCFv5Nnumm0-K_hcTTKXQ">My Wallpapers on Cloud</a>
-=======
   <a href="https://mega.nz/folder/7nRlhLYQ#q5W2EFLTmvQmzL3ZCyqINQ">My Wallpapers on Cloud</a>
   <a href="Imgs/wallp.jpg"><img src="Imgs/mini.wallp.jpg" alt="mini.wallp"></a>
 
