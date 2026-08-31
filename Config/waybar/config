@@ -1,0 +1,146 @@
+{
+    "layer": "top", // Layer of waybar
+    "position": "top", // Position of waybar
+    "height": 15, // Height of waybar
+    "spacing": 5, // Pixels between modules
+
+
+    "modules-left": [
+        "custom/menu",
+        "hyprland/workspaces",
+        "clock",
+        "hyprland/window"
+    ],
+    "modules-center": [
+        "custom/screenshot",
+        "tray",
+        "wlr/taskbar",
+        "custom/cava"
+    ],
+    "modules-right": [
+        "network",
+        "cpu",
+        "custom/gpu",
+        "memory",
+        "disk",
+        "disk#2",
+        "pulseaudio",
+        "custom/power_btn"
+    ],
+
+
+
+    "custom/menu": {
+        "format": " 󰮯 ",
+        "tooltip": false,
+        "on-click": "wofi --show drun"
+    },
+
+
+"custom/cava": {
+    "format": "{text}",
+    "exec": "~/.config/waybar/scripts/cava_module.py",
+    "return-type": "json"
+
+    },
+
+
+
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+        "active": "󰮯",
+        "default": "○" 
+      },
+      "persistent-workspaces": {
+        "*": 9
+      }
+    },
+    "cpu": {
+        "format": "  CPU {usage}%",
+        "interval": 1,
+        "tooltip": false
+    },
+    "custom/gpu": {
+        "exec": "cat /sys/class/hwmon/hwmon2/device/gpu_busy_percent",
+        "format": " 󰢮 GPU {}%",
+        "return-type": "",
+        "interval": 1,
+        "tooltip": false
+    },
+    "memory": {
+        "format": " 󰒋 RAM {}%",
+	    "tooltip": false
+    },
+    "custom/power_btn": {
+        "format": "<span foreground='#FCC92F'>   </span>",
+        "on-click": "sh -c '(sleep 0.5s; wlogout --protocol layer-shell)' & disown",
+        "tooltip": false,
+        "icon-size": 20,
+    },
+    "disk": {
+        "interval": 30,
+        "format": " 󰋊-Root {percentage_used}%",
+        "path": "/",
+        "tooltip": true,
+        "tooltip-format": "HDD - {used} used out of {total} on {path} ({percentage_used}%)",
+    },
+     "disk#2": {
+        "interval": 30,
+        "format": " 󰋊-Stock {percentage_used}%",
+        "path": "/home/tof/STOCK1",
+        "tooltip": true,
+        "tooltip-format": "HDD - {used} used out of {total} on {path} ({percentage_used}%)",
+    },
+    "pulseaudio": {
+        "format": " {icon} {volume}%",
+        "format-icons": ["", "", ""],
+        "tooltip": false,
+    "on-click": "pavucontrol"
+    },
+    "hyprland/language": {
+       "format": "  {}",
+       "format-en": "EN",
+       "format-ru": "RU"
+    },
+    "tray": {
+    "icon-size": 20,
+    "spacing": 6
+    },
+    "custom/screenshot": {
+    "format": "{icon}",
+    "icon-size": 30,
+    "format-icons": "󰹑 ",
+    "tooltip": "Capture d'écran",
+    "on-click": "grim -g \"$(slurp)\" ~/Documents/Imgs/screen-shot/screenshot_$(date +'%Y-%m-%d_%H-%M-%S').png && notify-send 'Screenshot OK' -t 3000 -u normal"
+    },
+"network": {
+  "interface": "enp7s0",
+  "interval": 2,
+  "format": "󰈀 {ifname} {ipaddr}",
+  "format-ethernet": "⇧⇧{bandwidthUpBits}  ⇩⇩{bandwidthDownBits}  󰈀 ",
+  "format-wifi": " {essid} {ipaddr} 󰄺 {bandwidthUpBits}bps  󰄾 {bandwidthDownBits}bps",
+  "format-disconnected": "󰖪 déconnecté",
+  "tooltip-format": "{ifname} via {gwaddr}\n󰆨 IP : {ipaddr}/{cidr}\n󰄺 UP : {bandwidthUpBits}bps\n󰄾 DOWN : {bandwidthDownBits}bps",
+  "on-click": "",
+  "max-length": 50
+    },
+"wlr/taskbar": {
+"format": "{icon}",
+"all-outputs": true,
+"icon-size": 20,
+"icon-theme": "candy-icons",
+"tooltip-format": "{title}",
+"on-click": "activate",
+"on-click-middle": "close",
+"app_ids-mapping": {
+"firefoxdeveloperedition": "firefox-developer-edition"
+},
+    "custom/clock": {
+        "exec": "date '+%d-%m-%Y'",
+        "format": " {} ",
+        "tooltip": false
+    }
+},
+}

@@ -1,0 +1,53 @@
+#window {
+    margin: 0px;
+    border: 1px solid #cccccc;
+    background-color: rgba(20, 20, 20, 0.6); /* fond semi-transparent */
+    border-radius: 16px;
+    backdrop-filter: blur(12px);             /* effet flou */
+    -webkit-backdrop-filter: blur(12px);     /* support Safari */
+
+
+}
+
+#input {
+    margin: 5px;
+    border: none;
+    color: #23232b;
+    background-color: #44475a;
+    border-radius: 8px;                /* Optionnel : arrondir aussi l'input */
+}
+
+#inner-box {
+    margin: 5px;
+    border: none;
+    background-color: #23232b;
+    border-radius: 8px;                /* Optionnel */
+}
+
+
+
+#outer-box {
+    margin: 5px;
+    border: none;
+    background-color: rgba(20, 20, 20, 0.4); /* fond semi-transparent */
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+
+
+#scroll {
+    margin: 0px;
+    border: none;
+}
+
+#text {
+    margin: 5px;
+    border: none;
+    color: #ffffff;
+}
+
+#entry:selected {
+    background-color: #111111;
+    border-radius: 8px;                /* Optionnel : effet plus doux à la sélection */
+}

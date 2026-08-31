@@ -1,0 +1,44 @@
+user: 255  # Blanc
+group: 250  # Gris clair
+permission:
+  read: 248  # Gris
+  write: 248  # Gris
+  exec: 255  # Blanc
+  exec-sticky: 250  # Gris clair
+  no-access: 240  # Gris foncé
+  octal: 248  # Gris
+  acl: 248  # Gris
+  context: 248  # Gris
+date:
+  hour-old: 255  # Blanc
+  day-old: 250  # Gris clair
+  older: 248  # Gris
+size:
+  none: 240  # Gris foncé
+  small: 248  # Gris
+  medium: 250  # Gris clair
+  large: 255  # Blanc
+inode:
+  valid: 250  # Gris clair
+  invalid: 240  # Gris foncé
+links:
+  valid: 255  # Blanc
+  invalid: 248  # Gris é
+tree-edge: 248  # Gris
+git-status:
+  default: 240  # Gris foncé
+  unmodified: 248  # Gris
+  ignored: 240  # Gris foncé
+  new-in-index: 255  # Blanc
+  new-in-workdir: 255  # Blanc
+  typechange: 250  # Gris clair
+  deleted: 240  # Gris foncé
+  renamed: 250  # Gris clair
+  modified: 248  # Gris
+  conflicted: 240  # Gris foncé
+icon:
+  directory: 250  # Gris clair
+  file: 248       # Gris
+  symlink: 255    # Blanc
+  executable: 255 # Blanc
+  special: 250    # Gris clair

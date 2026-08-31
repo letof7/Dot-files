@@ -1,0 +1,6 @@
+{
+  "type": "text",
+  "style": "plain",
+  "template": " <#26C6DA>{{ if eq .Shell \"bash\" }}\uf489{{ else if eq .Shell \"zsh\" }}\uf489{{ else if eq .Shell \"fish\" }}\uf1e0{{ else }}\uf120{{ end }} {{ .Shell }}",
+  "foreground": "#26C6DA"
+},

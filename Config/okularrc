@@ -1,0 +1,31 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[Recent Files]
+File1[$e]=$HOME/STOCK1/BOULOT-SAV/Documents/0_METROLOGIE/DOCS-Metrologie/Guide métrologie.pdf
+File10[$e]=$HOME/Downloads/hacking_tools_cheat_sheet_v2.0.pdf
+File2[$e]=$HOME/STOCK1/BOULOT-SAV/Documents/0-PHARMA/PHARMA GIVAUDAN/COMMUN-AGENCE/rapport de visite/dossier veolia/Dossier_complet_VEOLIA_960_DF_01_00 (003).pdf
+File3[$e]=$HOME/STOCK1/BOULOT-SAV/Documents/0-PHARMA/PHARMA GIVAUDAN/COMMUN-AGENCE/rapport de visite/dossier veolia/940_PID_01_01_Eau_omosée.pdf
+File4[$e]=$HOME/STOCK1/BOULOT-SAV/Documents/0-PHARMA/PHARMA GIVAUDAN/COMMUN-AGENCE/rapport de visite/Plan de maintenance_Givaudan_REV00_12112024.pdf
+File5[$e]=$HOME/Downloads/maxi-RO.pdf
+File6[$e]=$HOME/Drive/Google Photos/2025-05-Uckange/IMG_0535.HEIC
+File7[$e]=$HOME/Drive/Google Photos/2025-08-millaut/IMG_1320.HEIC
+File8[$e]=$HOME/Drive/Google Photos/2025-08-millaut/IMG_1396.HEIC
+File9[$e]=$HOME/Downloads/IMG_1396.HEIC
+Name1[$e]=Guide métrologie.pdf
+Name10[$e]=hacking_tools_cheat_sheet_v2.0.pdf
+Name2[$e]=Dossier_complet_VEOLIA_960_DF_01_00 (003).pdf
+Name3[$e]=940_PID_01_01_Eau_omosée.pdf
+Name4[$e]=Plan de maintenance_Givaudan_REV00_12112024.pdf
+Name5[$e]=maxi-RO.pdf
+Name6[$e]=IMG_0535.HEIC
+Name7[$e]=IMG_1320.HEIC
+Name8[$e]=IMG_1396.HEIC
+Name9[$e]=IMG_1396.HEIC
+
+[UiSettings]
+ColorScheme=BreezeDark

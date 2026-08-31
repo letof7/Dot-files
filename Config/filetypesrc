@@ -1,0 +1,6 @@
+[EmbedSettings]
+embed-application/pdf=false
+embed-application/x-shellscript=false
+embed-image/jpeg=false
+embed-video/mp4=false
+embed-video/x-matroska=false
