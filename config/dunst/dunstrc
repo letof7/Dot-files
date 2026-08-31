@@ -1,0 +1,84 @@
+[global]
+    monitor = 0
+    follow = keyboard
+    width = (300, 450)
+    height = 60
+    gap_size = 5
+    offset = +20x+35
+    origin = top-right
+    progress_bar = true
+    progress_bar_height = 8
+    progress_bar_frame_width = 0
+    progress_bar_min_width = 200
+    progress_bar_max_width = 400
+    progress_bar_corner_radius = 8
+    indicate_hidden = yes
+    shrink = no
+    transparency = 15
+    separator_height = 3
+    padding = 10
+    horizontal_padding = 20
+    text_icon_padding = 8
+    frame_width = 1
+    frame_color = "#ECEFF4" 
+    separator_color = frame
+    sort = yes
+    idle_threshold = 90
+    font = "Inter Nerd Font:weight=bold 10"
+    line_height = 1.1
+    markup = full
+    format = "<span foreground='#ECEFF4'><b>%a</b></span>\\n<span foreground='#E5E9F0' size='smaller'>%s</span>\\n<span foreground='#D8DEE9'>%b</span>"
+    alignment = left
+    vertical_alignment = center
+    show_age_threshold = 45
+    word_wrap = yes
+    ellipsize = middle
+    ignore_newline = no
+    stack_duplicates = true
+    hide_duplicate_count = false
+    show_indicators = yes
+    icon_position = left
+    min_icon_size = 24
+    max_icon_size = 32
+    icon_path = "/home/tof/.config/dunst/icons"
+    sticky_history = yes
+    history_length = 50
+    dmenu = /usr/bin/dmenu -p dunst -fn "Inter Nerd Font 6" -nb "#1D2021" -nf "#ECEFF4" -sb "#ECEFF4" -sf "#1D2021"
+    browser = /usr/bin/brave --new-tab
+    always_run_script = true
+    title = Dunst
+    class = Dunst
+    corner_radius = 12
+    ignore_dbusclose = false
+    force_xwayland = false
+    force_xinerama = false
+    mouse_left_click = do_action, close_current
+    mouse_middle_click = close_current
+    mouse_right_click = close_all
+
+[experimental]
+    per_monitor_dpi = true
+
+[urgency_low]
+    background = "#1D2021"  
+    foreground = "#ECEFF4"  
+    frame_color = "#ECEFF4" 
+    highlight = "#ECEFF4"
+    timeout = 18
+    icon = "/home/tof/.config/dunst/icons/low.svg"
+
+[urgency_normal]
+    background = "#1D2021"  
+    foreground = "#E5E9F0"  
+    frame_color = "#ECEFF4" 
+    highlight = "#E5E9F0"
+    timeout = 18
+    icon = "/home/tof/.config/dunst/icons/normal.svg"
+
+[urgency_critical]
+    background = "#1D2021"  
+    foreground = "#BF616A"  
+    frame_color = "#BF616A" 
+    highlight = "#BF616A"
+    timeout = 0
+    icon = "/home/tof/.config/dunst/icons/critical.svg"

@@ -1,0 +1,25 @@
+# Éditeurs et fichiers temporaires
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Journaux, caches et miniatures
+*.log
+**/cache/
+**/Cache/
+**/.cache/
+**/thumbnails/
+
+# Secrets possibles
+.env
+.env.*
+*.key
+*.pem
+id_rsa
+id_ed25519
+
+# Réglages locaux à une machine
+machine-local.conf
+local.conf

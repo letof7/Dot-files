@@ -1,0 +1,11 @@
+--theme="Nord"
+--style=plain
+--color=always
+--paging=never
+--wrap=character
+--tabs=4
+--italic-text=always
+#--mouse=all
+--map-syntax="*.conf:INI"
+--map-syntax="Makefile:makefile"
+--map-syntax="*.cfg:INI"

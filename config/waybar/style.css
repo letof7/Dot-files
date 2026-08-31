@@ -1,0 +1,73 @@
+* {
+    font-family: "FiraCode-Retina";
+    font-size: 14px;
+    transition: background-color .5s ease;    
+}
+.modules-left,
+.modules-right {
+    margin: 0px 0px;
+    border-radius: 0px;
+    padding-left: 0px;
+}
+window#waybar {
+    background: rgba(15, 18, 25, 0.75);
+    color: #d1d4e3;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+#custom-menu {
+    color:#40E0D0;
+    font-size: 24px;
+}
+#custom-menu:hover {
+    color:#00CED1;
+}
+#workspaces button {
+    background: transparent;
+    color: rgba(255, 255, 0, 0.3);
+    font-weight: 900; 
+    font-size: 20px;
+    border: none;
+}
+#workspaces button.active {
+    color:#40E0D0;;
+}
+#workspaces button:hover {
+    color: #ffffff;
+    box-shadow: none;
+}
+#clock {
+    padding-top: 0px;
+    font-family: "Floor Tiles Big C";
+    color: #00CED1;
+    font-size: 16px;
+    font-weight: 500;
+}
+#cpu {
+    color: #AAAAAA
+}
+#disk {
+    color: #AAAAAA
+}
+#custom-gpu {
+    color: #AAAAAA
+}
+#memory {
+    color: #AAAAAA
+}
+#network {
+    color: #AAAAAA
+}
+#pulseaudio {
+    color: #AAAAAA
+}
+#window {
+    color: #AAAAAA
+}
+#language {
+    color: #000000
+}
+#custom-clock {
+    color: #00fddb;
+}

@@ -1,0 +1,22 @@
+{
+    "Groupe 1": [
+        {
+            "x": 0,
+            "y": 0,
+            "height": 310,
+            "width": 363,
+            "color": "yellow",
+            "title": "",
+            "text": "testettstetette"
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "height": 549,
+            "width": 650,
+            "color": "yellow",
+            "title": "",
+            "text": "lisez le \"Journal du m\u00e9decin\" sur l'\u00e9tag\u00e8re pour la recette.\nIngr\u00e9dients requis\n\n    Base : Vin (Wine).\n\n    3 poign\u00e9es de fleurs de Petite camomille (Feverfew).\n\n    2 racines de Gingembre (Ginger).\n\n    1 poign\u00e9e de feuilles de Sureau (Elderberry leaves).\n    \u200b\n\nCes ingr\u00e9dients se trouvent souvent dans le coffre du laboratoire (crochetez-le si n\u00e9cessaire).\u200b\n\u00c9tapes de pr\u00e9paration\n\n    Versez le vin dans le chaudron.\n\n    Ajoutez les 3 fleurs de Petite camomille et faites bouillir 2 tours de sablier.\n\n    Broyez les feuilles de Sureau et ajoutez-les au chaudron.\n\n    Ajoutez les 2 gingembres (non broy\u00e9s).\n\n    Distillez la potion dans une fiole.\u200b\n\nUtilisation\n\nDonnez le tonique \u00e0 Thomas dans la chapelle pour le gu\u00e9rir et avancer la qu\u00eate \"Pour qui sonne le glas\". Fabriquez une potion de sauvegarde (Saviour Schnapps) au pr\u00e9alable pour \u00e9viter les \u00e9checs."
+        }
+    ]
+}

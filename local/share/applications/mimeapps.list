@@ -1,0 +1,33 @@
+[Added Associations]
+image/jpeg=org.kde.gwenview.desktop;
+application/pdf=org.pwmt.zathura.desktop;
+
+[Default Applications]
+application/pdf=okular.desktop
+application/x-nfo=sublime_text.desktop
+image/HEIC=gwenview.desktop
+image/bmp=gwenview.desktop
+image/gif=gwenview.desktop
+image/jpeg=org.kde.gwenview.desktop;
+image/jpg=gwenview.desktop
+image/png=gwenview.desktop
+image/tiff=gwenview.desktop
+text/html=opera-gx.desktop
+x-scheme-handler/http=opera-gx.desktop
+x-scheme-handler/https=opera-gx.desktop
+video/mp4=vlc.desktop
+video/x-matroska=vlc.desktop
+video/x-msvideo=vlc.desktop
+video/webm=vlc.desktop
+video/ogg=vlc.desktop
+video/quicktime=vlc.desktop
+video/x-flv=vlc.desktop
+audio/mpeg=audacious.desktop
+audio/mp3=audacious.desktop
+audio/x-mp3=audacious.desktop
+audio/x-mpeg=audacious.desktop
+text/plain=sublime_text.desktop
+text/x-shellscript=sublime_text.desktop
+text/x-shell=sublime_text.desktop
+text/x-conf=sublime_text.desktop
+text/x-markdown=sublime_text.desktop

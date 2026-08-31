@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+
+DIR="$HOME/Images"
+SLEEPTIME=360
+
+while true
+do
+  PIC=$(find "$DIR" -type f \( -iname "*.jpg" -o -iname "*.png" -o -iname "*.jpeg" \) | shuf -n1)
+
+  hyprctl hyprpaper preload "$PIC"
+  hyprctl hyprpaper wallpaper ",$PIC"
+
+  sleep $SLEEPTIME
+done

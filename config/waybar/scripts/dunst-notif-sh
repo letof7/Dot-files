@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# nombre de notifs affichées + en attente
+displayed=$(dunstctl count displayed)
+waiting=$(dunstctl count waiting)
+count=$((displayed + waiting))
+
+if [ "$count" -eq 0 ]; then
+  icon="none"
+  text="0"
+  class="none"
+else
+  icon="some"
+  text="$count"
+  class="some"
+fi
+
+echo "{\"text\": \"$text\", \"tooltip\": \"Notifications: $count\", \"class\": \"$class\", \"icon\": \"$icon\"}"
